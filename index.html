@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0180)file:///C:/Users/SPECTRE%20%20X360%20%20-14/OneDrive%20-%20Blue%20Star%20Limited/Desktop/UAE%20offplan/UAE%20Off-Plan%20Residential%20Sales%20%E2%80%94%20Market%20Intelligence.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UAE Off-Plan Residential Sales — Market Intelligence</title>
+<link href="./index_files/css2" rel="stylesheet">
+<script src="./index_files/chart.umd.js.download"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0a1628;--navy2:#0f1f3d;--navy3:#162244;
+  --blue:#0050d8;--blue3:#3b82f6;
+  --green:#10b981;--red:#ef4444;--amber:#f59e0b;--purple:#7c3aed;
+  --teal:#0891b2;--rose:#e11d48;
+  --off:#f8fafc;--g50:#f1f5f9;--g100:#e2e8f0;--g200:#cbd5e1;
+  --g300:#94a3b8;--g500:#64748b;--g700:#334155;
+  --border:#e2e8f0;--border2:#cbd5e1;
+  --font:'Inter',system-ui,sans-serif;--mono:'JetBrains Mono',monospace;
+  --r:4px;--rm:6px;--rl:8px;
+}
+html{font-size:14px;-webkit-font-smoothing:antialiased}
+body{background:var(--off);color:var(--g700);font-family:var(--font);font-size:14px;line-height:1.5;min-height:100vh}
+
+/* TICKER */
+.ticker{background:var(--navy);color:#94a3b8;font-family:var(--mono);font-size:10px;letter-spacing:.04em;padding:5px 0;overflow:hidden;white-space:nowrap;border-bottom:1px solid #1e3a5f}
+.ticker-inner{display:inline-flex;gap:48px;animation:tick 55s linear infinite}
+@keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ti{display:flex;gap:10px;align-items:center}
+.tl{color:#475569;text-transform:uppercase}.tv{color:#f8fafc;font-weight:500}
+.tup{color:#10b981}.tdn{color:#ef4444}
+
+/* MASTHEAD */
+.mast{background:var(--navy);border-bottom:3px solid var(--blue)}
+.mast-in{max-width:1280px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;height:52px;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.logom{width:30px;height:30px;background:var(--blue);border-radius:3px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.logom svg{width:16px;height:16px;fill:white}
+.logot{font-size:13px;font-weight:700;color:white;letter-spacing:-.01em}
+.logos{font-size:9px;color:#64748b;letter-spacing:.06em;text-transform:uppercase;margin-top:1px}
+.mast-meta{display:none}
+@media(min-width:640px){.mast-meta{display:flex;align-items:center;gap:16px;font-size:10px;color:#64748b;font-family:var(--mono)}}
+.mast-meta strong{color:#e2e8f0;font-weight:500}
+.dot{width:6px;height:6px;border-radius:50%;background:#10b981;display:inline-block;margin-right:5px;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* HERO */
+.hero{background:var(--navy2);border-bottom:1px solid #1e3a5f;padding:16px 0}
+.hero-in{max-width:1280px;margin:0 auto;padding:0 16px}
+.hero-tag{font-size:9px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#475569;margin-bottom:6px;font-family:var(--mono)}
+.hero-h{font-size:clamp(16px,4vw,24px);font-weight:700;color:#f8fafc;letter-spacing:-.02em;line-height:1.2;margin-bottom:3px}
+.hero-h span{color:#3b82f6}
+.hero-d{font-size:11px;color:#64748b;margin-bottom:14px;line-height:1.5}
+.kpi-strip{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:#1e3a5f;border:1px solid #1e3a5f;border-radius:var(--rm);overflow:hidden}
+@media(min-width:480px){.kpi-strip{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:900px){.kpi-strip{grid-template-columns:repeat(6,1fr)}}
+.kpi{background:var(--navy3);padding:10px 12px;position:relative}
+.kpi-l{font-size:8px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#475569;font-family:var(--mono);margin-bottom:4px}
+.kpi-v{font-size:16px;font-weight:700;color:#f8fafc;font-family:var(--mono);line-height:1;letter-spacing:-.02em}
+.kpi-s{font-size:9px;color:#475569;margin-top:2px}
+.kpi-d{display:inline-flex;align-items:center;gap:3px;font-size:9px;font-weight:600;font-family:var(--mono);margin-top:3px;padding:1px 5px;border-radius:3px}
+.up{background:rgba(16,185,129,.12);color:#10b981}
+.dn{background:rgba(239,68,68,.1);color:#ef4444}
+.neu{background:rgba(59,130,246,.12);color:#3b82f6}
+
+/* NAV */
+.nav{background:white;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:200;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.nav-in{max-width:1280px;margin:0 auto;padding:0 8px;display:flex;align-items:center;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.nav-in::-webkit-scrollbar{display:none}
+.nb{background:none;border:none;padding:12px 14px;font-family:var(--font);font-size:12px;font-weight:500;color:var(--g500);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:all .15s;flex-shrink:0}
+.nb:hover{color:var(--navy2);background:var(--g50)}
+.nb.active{color:var(--blue);border-bottom-color:var(--blue)}
+
+/* LAYOUT */
+.wrap{max-width:1280px;margin:0 auto;padding:16px}
+.panel{display:none}.panel.active{display:block}
+.sh{margin-bottom:16px}
+.sh h2{font-size:14px;font-weight:700;color:var(--navy2);letter-spacing:-.01em}
+.sh p{font-size:10px;color:var(--g300);margin-top:2px;font-family:var(--mono);line-height:1.5}
+.row{display:grid;gap:10px;margin-bottom:10px}
+.c2{grid-template-columns:1fr 1fr}
+.c3{grid-template-columns:1fr 1fr 1fr}
+.c4{grid-template-columns:repeat(4,1fr)}
+.c7{grid-template-columns:repeat(4,1fr)}
+@media(min-width:640px){.c7{grid-template-columns:repeat(4,1fr)}}
+@media(min-width:900px){.c7{grid-template-columns:repeat(7,1fr)}}
+@media(max-width:640px){.c2,.c3,.c4{grid-template-columns:1fr}}
+@media(max-width:480px){.c7{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:641px) and (max-width:900px){.c3,.c4{grid-template-columns:1fr 1fr}}
+
+/* CARDS */
+.card{background:white;border:1px solid var(--border);border-radius:var(--rl);padding:14px 16px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.ch{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:12px;gap:8px;flex-wrap:wrap}
+.ct{font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--g500)}
+.cbadge{font-size:8px;font-weight:600;padding:2px 6px;border-radius:3px;font-family:var(--mono);flex-shrink:0;white-space:nowrap}
+.bp{background:#fef3c7;color:#92400e}.bc{background:#d1fae5;color:#065f46}.be{background:#dbeafe;color:#1e40af}
+
+/* STAT CARDS */
+.sc{background:white;border:1px solid var(--border);border-radius:var(--rl);padding:12px 14px;box-shadow:0 1px 2px rgba(0,0,0,.05)}
+.sl{font-size:8px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--g300);font-family:var(--mono);margin-bottom:4px}
+.sv{font-size:18px;font-weight:700;color:var(--navy2);font-family:var(--mono);letter-spacing:-.02em;line-height:1.1}
+.ss{font-size:9px;color:var(--g300);margin-top:3px;line-height:1.4}
+.sd{display:inline-flex;align-items:center;gap:3px;font-size:9px;font-weight:600;font-family:var(--mono);margin-top:4px;padding:2px 6px;border-radius:3px}
+
+/* EMIRATE CARDS */
+.ecard{background:white;border:1px solid var(--border);border-radius:var(--rl);padding:12px 14px;box-shadow:0 1px 2px rgba(0,0,0,.05);border-top:3px solid transparent}
+.ecard-flag{font-size:18px;margin-bottom:4px}
+.ecard-name{font-size:10px;font-weight:700;color:var(--navy2);letter-spacing:.02em;margin-bottom:6px}
+.ecard-v{font-size:16px;font-weight:700;font-family:var(--mono);line-height:1}
+.ecard-lbl{font-size:8px;color:var(--g300);font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em;margin-top:1px}
+.ecard-row{display:flex;justify-content:space-between;margin-top:6px;font-size:9px;color:var(--g500)}
+.ecard-share{font-family:var(--mono);font-weight:600}
+
+/* CHARTS */
+.cw{position:relative;width:100%}
+.h160{height:160px}.h200{height:200px}.h220{height:220px}
+.h250{height:250px}.h280{height:280px}.h300{height:300px}
+@media(max-width:640px){
+  .h280{height:220px}.h300{height:240px}.h250{height:200px}
+}
+
+/* LEGEND */
+.leg{display:flex;flex-wrap:wrap;gap:5px 12px;margin-bottom:8px;font-size:10px;color:var(--g500);font-family:var(--mono)}
+.leg span{display:flex;align-items:center;gap:4px}
+.leg i{width:10px;height:3px;border-radius:1px;display:inline-block;flex-shrink:0}
+.leg i.sq{height:10px;border-radius:2px}
+.leg i.dot{width:7px;height:7px;border-radius:50%}
+
+/* TABLE */
+.dt{width:100%;border-collapse:collapse;font-size:11px}
+.dt th{font-size:8px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--g300);padding:7px 8px 7px 0;text-align:left;border-bottom:2px solid var(--border);font-family:var(--mono)}
+.dt th.r{text-align:right}
+.dt td{padding:7px 8px 7px 0;border-bottom:1px solid var(--g50);vertical-align:middle;color:var(--g700)}
+.dt td.r{text-align:right;font-family:var(--mono)}
+.dt td.m{font-family:var(--mono);font-size:10px}
+.dt tr:hover td{background:var(--g50)}
+.dt tr.hl td{background:#eff6ff}
+.dt tr.hl td:first-child{border-left:3px solid var(--blue)}
+.tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+/* HOTSPOT BAR */
+.hb-row{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid var(--g50)}
+.hb-name{width:140px;font-size:10px;color:var(--g700);flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:640px){.hb-name{width:90px;font-size:9px}}
+.hb-track{flex:1;height:7px;background:var(--g50);border-radius:1px;overflow:hidden}
+.hb-fill{height:100%;border-radius:1px}
+.hb-val{width:80px;font-size:10px;font-family:var(--mono);font-weight:600;text-align:right;flex-shrink:0}
+
+/* NOTES */
+.nb2{font-size:10px;color:var(--g500);background:var(--g50);border:1px solid var(--border);border-left:3px solid var(--blue);border-radius:var(--rm);padding:8px 12px;margin-top:8px;line-height:1.7}
+.nb2 strong{color:var(--navy2)}
+.nw{border-left-color:var(--amber);background:#fffbeb}
+.nc{border-left-color:var(--green);background:#f0fdf4}
+.ne{border-left-color:var(--red);background:#fef2f2}
+
+/* KV */
+.kv{display:flex;justify-content:space-between;border-bottom:1px solid var(--border);padding:5px 0;font-size:11px;gap:8px}
+.kv:last-child{border-bottom:none}
+.kk{color:var(--g500);flex:1}
+.kva{color:var(--navy2);font-family:var(--mono);font-weight:600;text-align:right;flex-shrink:0}
+
+/* PILLS */
+.rp{font-size:8px;padding:1px 5px;border-radius:3px;font-weight:600;font-family:var(--mono)}
+.rk{background:#dbeafe;color:#1e40af}.rn{background:#d1fae5;color:#065f46}
+.rd{background:#ede9fe;color:#4c1d95}.rs{background:#fee2e2;color:#991b1b}.rm2{background:#fef3c7;color:#92400e}
+
+/* SCROLL */
+.sy{overflow-y:auto;max-height:420px}
+.sy::-webkit-scrollbar{width:3px}
+.sy::-webkit-scrollbar-thumb{background:var(--g200);border-radius:2px}
+
+/* UTILS */
+.cblue{color:var(--blue)}.cgreen{color:var(--green)}.cred{color:var(--red)}
+.camber{color:var(--amber)}.cgray{color:var(--g300)}.cpurple{color:var(--purple)}
+.mono{font-family:var(--mono)}.bold{font-weight:600}
+.mt8{margin-top:8px}.mt12{margin-top:12px}
+.mobile-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+footer{background:var(--navy);border-top:1px solid #1e3a5f;padding:12px 16px;font-size:9px;color:#475569;font-family:var(--mono);text-align:center;margin-top:24px;line-height:1.8}
+footer strong{color:#64748b}
+</style>
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker"><div class="ticker-inner" id="tickercontent"><div class="ti"><span class="tl">DUBAI OFF-PLAN 2025</span><span class="tv">~140K UNITS</span><span class="tup">▲ +63% of all sales</span></div><div class="ti"><span class="tl">ABU DHABI OFF-PLAN 2025</span><span class="tv">15,900 UNITS</span><span class="tup">▲ +68% YoY</span></div><div class="ti"><span class="tl">RAK VALUE 2025</span><span class="tv">AED 15B</span><span class="tup">▲ +118% YoY</span></div><div class="ti"><span class="tl">SHARJAH 9M 2025</span><span class="tv">AED 44.3B</span><span class="tup">▲ +58.3% YoY</span></div><div class="ti"><span class="tl">DUBAI Q4 2025</span><span class="tv">AED 187.5B</span><span class="tup">▲ Strongest Q4 ever</span></div><div class="ti"><span class="tl">DUBAI DEC 2025</span><span class="tv">19,220 TRANS.</span><span class="tup">▲ +52% vs Dec 2024</span></div><div class="ti"><span class="tl">ABU DHABI JAN 2026</span><span class="tv">AED 12B SALES</span><span class="tup">▲ 83% off-plan</span></div><div class="ti"><span class="tl">DUBAI Q1 2026</span><span class="tv">AED 137.3B</span><span class="tup">▲ +18.8% YoY</span></div><div class="ti"><span class="tl">RAK PRICE GROWTH</span><span class="tv">AED 2,838/SQFT</span><span class="tup">▲ +39% since 2023</span></div><div class="ti"><span class="tl">DUBAI RENTAL YIELD</span><span class="tv">7.3% APTS</span><span class="tup">▲ Cavendish Maxwell</span></div><div class="ti"><span class="tl">UAE CASH BUYERS</span><span class="tv">86% DUBAI</span><span class="tup">Knight Frank Q3 2025</span></div><div class="ti"><span class="tl">SHARJAH MASAAR 2</span><span class="tv">2,000 UNITS AED 5.6B</span><span class="tup">▲ Sold in 3 hours</span></div><div class="ti"><span class="tl">DUBAI OFF-PLAN 2025</span><span class="tv">~140K UNITS</span><span class="tup">▲ +63% of all sales</span></div><div class="ti"><span class="tl">ABU DHABI OFF-PLAN 2025</span><span class="tv">15,900 UNITS</span><span class="tup">▲ +68% YoY</span></div><div class="ti"><span class="tl">RAK VALUE 2025</span><span class="tv">AED 15B</span><span class="tup">▲ +118% YoY</span></div><div class="ti"><span class="tl">SHARJAH 9M 2025</span><span class="tv">AED 44.3B</span><span class="tup">▲ +58.3% YoY</span></div><div class="ti"><span class="tl">DUBAI Q4 2025</span><span class="tv">AED 187.5B</span><span class="tup">▲ Strongest Q4 ever</span></div><div class="ti"><span class="tl">DUBAI DEC 2025</span><span class="tv">19,220 TRANS.</span><span class="tup">▲ +52% vs Dec 2024</span></div><div class="ti"><span class="tl">ABU DHABI JAN 2026</span><span class="tv">AED 12B SALES</span><span class="tup">▲ 83% off-plan</span></div><div class="ti"><span class="tl">DUBAI Q1 2026</span><span class="tv">AED 137.3B</span><span class="tup">▲ +18.8% YoY</span></div><div class="ti"><span class="tl">RAK PRICE GROWTH</span><span class="tv">AED 2,838/SQFT</span><span class="tup">▲ +39% since 2023</span></div><div class="ti"><span class="tl">DUBAI RENTAL YIELD</span><span class="tv">7.3% APTS</span><span class="tup">▲ Cavendish Maxwell</span></div><div class="ti"><span class="tl">UAE CASH BUYERS</span><span class="tv">86% DUBAI</span><span class="tup">Knight Frank Q3 2025</span></div><div class="ti"><span class="tl">SHARJAH MASAAR 2</span><span class="tv">2,000 UNITS AED 5.6B</span><span class="tup">▲ Sold in 3 hours</span></div></div></div>
+
+<!-- MASTHEAD -->
+<header class="mast">
+  <div class="mast-in">
+    <div class="logo">
+      <div class="logom"><svg viewBox="0 0 24 24"><path d="M2 20h20v2H2zm2-8h2v7H4zm5-5h2v12H9zm5 3h2v9h-2zm5-6h2v15h-2z"></path></svg></div>
+      <div>
+        <div class="logot">UAE REAL ESTATE INTELLIGENCE</div>
+        <div class="logos">Off-Plan Residential · Apr 2024 – Apr 2026</div>
+      </div>
+    </div>
+    <div class="mast-meta">
+      <span><span class="dot"></span><strong>LIVE MARKET</strong></span>
+      <span>DLD · ADREC · SRERD · ValuStrat</span>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-in">
+    <div class="hero-tag">UAE Off-Plan Residential Market · All 7 Emirates · Apr 2024 – Apr 2026</div>
+    <div class="hero-h">Off-Plan Sales Surge Across <span>All 7 Emirates</span></div>
+    <div class="hero-d">Dubai leads at 68% off-plan share · Abu Dhabi +68% YoY · RAK +118% · Sharjah AED 65B+ in 2025 · Northern Emirates fast emerging</div>
+    <div class="kpi-strip">
+      <div class="kpi"><div class="kpi-l">Dubai Off-Plan 2025</div><div class="kpi-v" style="color:#3b82f6">~140K</div><div class="kpi-s">Units est. full year 2025</div><div class="kpi-d up">▲ 68% of all sales</div></div>
+      <div class="kpi"><div class="kpi-l">Abu Dhabi Off-Plan</div><div class="kpi-v" style="color:#10b981">15,900</div><div class="kpi-s">Units sold full year 2025</div><div class="kpi-d up">▲ +68% YoY</div></div>
+      <div class="kpi"><div class="kpi-l">RAK Transaction Value</div><div class="kpi-v" style="color:#f59e0b">AED 15B</div><div class="kpi-s">Total 2025 · 85% off-plan</div><div class="kpi-d up">▲ +118% YoY</div></div>
+      <div class="kpi"><div class="kpi-l">Sharjah 9M 2025</div><div class="kpi-v">AED 44B</div><div class="kpi-s">AED 44.3B · 80,320 deals</div><div class="kpi-d up">▲ +58.3% YoY</div></div>
+      <div class="kpi"><div class="kpi-l">Dubai Q4 2025</div><div class="kpi-v">AED 187B</div><div class="kpi-s">Strongest Q4 ever recorded</div><div class="kpi-d up">▲ +26.9% YoY</div></div>
+      <div class="kpi"><div class="kpi-l">UAE Cash Buyers</div><div class="kpi-v">86%</div><div class="kpi-s">Dubai · Knight Frank Q3 2025</div><div class="kpi-d neu">Mortgage independent</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-in">
+    <button class="nb" onclick="go(&#39;overview&#39;,this)">Overview</button>
+    <button class="nb" onclick="go(&#39;emirates&#39;,this)">By Emirate</button>
+    <button class="nb" onclick="go(&#39;dubai&#39;,this)">Dubai</button>
+    <button class="nb" onclick="go(&#39;abudhabi&#39;,this)">Abu Dhabi</button>
+    <button class="nb" onclick="go(&#39;northern&#39;,this)">Northern</button>
+    <button class="nb" onclick="go(&#39;hotspots&#39;,this)">Hotspots</button>
+    <button class="nb" onclick="go(&#39;trends&#39;,this)">Trends</button>
+    <button class="nb active" onclick="go(&#39;recent&#39;,this)">Sep 25–Mar 26</button>
+    <button class="nb" onclick="go(&#39;notes&#39;,this)">Data Notes</button>
+  </div>
+</nav>
+
+<div class="wrap">
+
+<!-- ══ OVERVIEW ══ -->
+<div id="overview" class="panel">
+  <div class="sh"><h2>UAE Off-Plan Market — All Emirates</h2><p>12-month period Apr 2024–Apr 2026 · DLD · ADREC · SRERD · ValuStrat · Cavendish Maxwell · CBRE · Colliers</p></div>
+  <div class="row c4">
+    <div class="sc"><div class="sl">Dubai off-plan est. 2025</div><div class="sv cblue">~140K</div><div class="ss">Units · annualised from DLD Q1+H1 data</div><div class="sd up">▲ 63% of all 2025 sales</div></div>
+    <div class="sc"><div class="sl">Abu Dhabi off-plan 2025</div><div class="sv cgreen">15,900</div><div class="ss">Units · ADREC + Cavendish Maxwell</div><div class="sd up">▲ +68% vs 9,400 in 2024</div></div>
+    <div class="sc"><div class="sl">Sharjah 9M 2025 deals</div><div class="sv camber">80,320</div><div class="ss">Total transactions · SRERD official</div><div class="sd up">▲ +16.3% YoY</div></div>
+    <div class="sc"><div class="sl">RAK off-plan 2024</div><div class="sv cred">3,000+</div><div class="ss">Units · 85% of freehold · AED 6B value</div><div class="sd up">▲ +118% total market YoY</div></div>
+  </div>
+  <!-- Emirate summary cards -->
+  <div class="row c7" style="margin-bottom:10px">
+    <div class="ecard" style="border-top-color:#0050d8"><div class="ecard-flag">🏙️</div><div class="ecard-name">DUBAI</div><div class="ecard-v cblue">~140K</div><div class="ecard-lbl">Off-plan units est. 2025</div><div class="ecard-row"><span>68% share</span><span class="ecard-share" style="color:#0050d8">AED 431B</span></div></div>
+    <div class="ecard" style="border-top-color:#10b981"><div class="ecard-flag">🕌</div><div class="ecard-name">ABU DHABI</div><div class="ecard-v cgreen">15,900</div><div class="ecard-lbl">Off-plan units 2025</div><div class="ecard-row"><span>71% res. sales</span><span class="ecard-share" style="color:#10b981">AED 76B</span></div></div>
+    <div class="ecard" style="border-top-color:#f59e0b"><div class="ecard-flag">🏗️</div><div class="ecard-name">SHARJAH</div><div class="ecard-v camber">~20K</div><div class="ecard-lbl">Off-plan est. (25–30%)</div><div class="ecard-row"><span>+20–25% in 2025</span><span class="ecard-share" style="color:#f59e0b">AED 65B</span></div></div>
+    <div class="ecard" style="border-top-color:#e11d48"><div class="ecard-flag">🏝️</div><div class="ecard-name">RAK</div><div class="ecard-v" style="color:#e11d48">3,000+</div><div class="ecard-lbl">Off-plan units 2024</div><div class="ecard-row"><span>85% of freehold</span><span class="ecard-share" style="color:#e11d48">AED 15B</span></div></div>
+    <div class="ecard" style="border-top-color:#7c3aed"><div class="ecard-flag">🌊</div><div class="ecard-name">AJMAN</div><div class="ecard-v cpurple">~4K</div><div class="ecard-lbl">Off-plan est. 2025</div><div class="ecard-row"><span>+26.6% market</span><span class="ecard-share" style="color:#7c3aed">AED 4.3B+</span></div></div>
+    <div class="ecard" style="border-top-color:#0891b2"><div class="ecard-flag">🌴</div><div class="ecard-name">UAQ</div><div class="ecard-v" style="color:#0891b2">~1.5K</div><div class="ecard-lbl">Off-plan est. (emerging)</div><div class="ecard-row"><span>Sobha Siniya</span><span class="ecard-share" style="color:#0891b2">Growing</span></div></div>
+    <div class="ecard" style="border-top-color:#64748b"><div class="ecard-flag">⛰️</div><div class="ecard-name">FUJAIRAH</div><div class="ecard-v cgray">~200</div><div class="ecard-lbl">Off-plan est. (nascent)</div><div class="ecard-row"><span>2 active projects</span><span class="ecard-share" style="color:#64748b">Minimal</span></div></div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Off-Plan Share by Emirate — Unit Volume</div><span class="cbadge be">ESTIMATED</span></div>
+      <div class="leg"><span><i class="dot" style="background:#0050d8"></i>Dubai</span><span><i class="dot" style="background:#10b981"></i>Abu Dhabi</span><span><i class="dot" style="background:#f59e0b"></i>Sharjah</span><span><i class="dot" style="background:#e11d48"></i>RAK</span><span><i class="dot" style="background:#7c3aed"></i>Others</span></div>
+      <div class="cw h280"><canvas id="c_share_pie" width="878" height="420" style="display: block; box-sizing: border-box; height: 280px; width: 585px;"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">Off-Plan Units Sold by Emirate (thousands)</div><span class="cbadge bc">MULTI-SOURCE</span></div>
+      <div class="cw h280"><canvas id="c_emirate_bar" width="878" height="420" style="display: block; box-sizing: border-box; height: 280px; width: 585px;"></canvas></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ch"><div class="ct">Transaction Value by Emirate — AED Billions</div><span class="cbadge bc">OFFICIAL DATA</span></div>
+    <div class="leg"><span><i class="sq" style="background:#0050d8"></i>Dubai H1 2025</span><span><i class="sq" style="background:#10b981"></i>Abu Dhabi FY 2025</span><span><i class="sq" style="background:#f59e0b"></i>Sharjah 9M 2025</span><span><i class="sq" style="background:#e11d48"></i>RAK 2025</span><span><i class="sq" style="background:#7c3aed"></i>Ajman</span></div>
+    <div class="cw h220"><canvas id="c_value_bar" width="1822" height="330" style="display: block; box-sizing: border-box; height: 220px; width: 1214px;"></canvas></div>
+  </div>
+</div>
+
+<!-- ══ BY EMIRATE ══ -->
+<div id="emirates" class="panel">
+  <div class="sh"><h2>Emirate-by-Emirate Comparison</h2><p>Official sources: DLD (Dubai) · ADREC (Abu Dhabi) · SRERD (Sharjah) · ValuStrat / Cavendish Maxwell (RAK, Ajman, others)</p></div>
+  <div class="card" style="margin-bottom:10px">
+    <div class="ch"><div class="ct">Full Emirate Comparison — Off-Plan Residential</div><span class="cbadge bc">VERIFIED DATA</span></div>
+    <div class="tscroll">
+      <table class="dt"><thead><tr>
+        <th>Emirate</th><th class="r">Off-Plan Units</th><th class="r">Transaction Value</th>
+        <th class="r">Off-Plan %</th><th class="r">YoY Change</th><th class="r">Avg Unit Price</th><th class="r">Top Hotspot</th>
+      </tr></thead><tbody id="emirate_tbody"><tr class="hl"><td style="font-weight:600;white-space:nowrap">🏙️ Dubai</td><td class="r m">~140K</td><td class="r m" style="white-space:nowrap">AED 431B (H1 2025)</td><td class="r m">63–68%</td><td class="r m" style="color:var(--green)">+32.4%</td><td class="r m">AED 1.3M apt / AED 5.2M villa</td><td style="font-size:10px;color:var(--g500)">JVC / Business Bay / Marina</td></tr><tr><td style="font-weight:600;white-space:nowrap">🕌 Abu Dhabi</td><td class="r m">15,900</td><td class="r m" style="white-space:nowrap">AED 76B residential</td><td class="r m">71%</td><td class="r m" style="color:var(--green)">+68%</td><td class="r m">AED 2.5M (ready)</td><td style="font-size:10px;color:var(--g500)">Yas / Al Reem / Saadiyat</td></tr><tr><td style="font-weight:600;white-space:nowrap">🏗️ Sharjah</td><td class="r m">~20K est.</td><td class="r m" style="white-space:nowrap">AED 44.3B (9M 2025)</td><td class="r m">~25–30%</td><td class="r m" style="color:var(--green)">+20–25%</td><td class="r m">AED 895K median</td><td style="font-size:10px;color:var(--g500)">Aljada / Muwaileh / Al Zahia</td></tr><tr><td style="font-weight:600;white-space:nowrap">🏝️ RAK</td><td class="r m">3,000+ (2024)</td><td class="r m" style="white-space:nowrap">AED 15B (2025)</td><td class="r m">85%</td><td class="r m" style="color:var(--green)">+118%</td><td class="r m">AED 1.98M off-plan</td><td style="font-size:10px;color:var(--g500)">Al Marjan / Mina Al Arab</td></tr><tr><td style="font-weight:600;white-space:nowrap">🌊 Ajman</td><td class="r m">~4K est.</td><td class="r m" style="white-space:nowrap">AED 4.3B+ (Q1 2024)</td><td class="r m">~60%</td><td class="r m" style="color:var(--green)">+26.6%</td><td class="r m">AED 400K–800K</td><td style="font-size:10px;color:var(--g500)">Al Hamidiyah</td></tr><tr><td style="font-weight:600;white-space:nowrap">🌴 UAQ</td><td class="r m">~1.5K est.</td><td class="r m" style="white-space:nowrap">Emerging</td><td class="r m">~70% est.</td><td class="r m" style="color:var(--green)">N/A</td><td class="r m">AED 230K+</td><td style="font-size:10px;color:var(--g500)">Siniya Island</td></tr><tr><td style="font-weight:600;white-space:nowrap">⛰️ Fujairah</td><td class="r m">~200 est.</td><td class="r m" style="white-space:nowrap">Minimal</td><td class="r m">~30%</td><td class="r m" style="color:var(--green)">N/A</td><td class="r m">AED 500K–1.2M</td><td style="font-size:10px;color:var(--g500)">Fujairah Corniche</td></tr></tbody></table>
+    </div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Off-Plan as % of Total Residential Sales</div><span class="cbadge bc">OFFICIAL</span></div>
+      <div class="cw h260"><canvas id="c_pct_market" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">YoY Volume / Value Growth by Emirate</div><span class="cbadge bc">MULTI-SOURCE</span></div>
+      <div class="cw h260"><canvas id="c_yoy_growth" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ch"><div class="ct">Off-Plan Units Sold — Emirate Comparison (thousands)</div><span class="cbadge be">ESTIMATED</span></div>
+    <div class="cw h220"><canvas id="c_emirate_bar2" height="330" style="display: block; box-sizing: border-box; height: 220px; width: 1214px;" width="1822"></canvas></div>
+  </div>
+</div>
+
+<!-- ══ DUBAI ══ -->
+<div id="dubai" class="panel">
+  <div class="sh"><h2>Dubai — Off-Plan Deep Dive</h2><p>DLD · CBRE · Cavendish Maxwell · Property Monitor · DXB Analytics · DXB Interact · Aiqya</p></div>
+  <div class="row c4">
+    <div class="sc"><div class="sl">Total residential 2025</div><div class="sv">205K</div><div class="ss">DLD: 205,100 transactions · +18.3% YoY</div><div class="sd up">▲ Record year</div></div>
+    <div class="sc"><div class="sl">Off-plan 2025</div><div class="sv cblue">~129K</div><div class="ss">63% of 205K total sales · DXB Analytics</div><div class="sd up">▲ Structural dominance</div></div>
+    <div class="sc"><div class="sl">2025 total sales value</div><div class="sv">AED 540B</div><div class="ss">+24.7% YoY · DLD / DXB Interact</div><div class="sd up">▲ Record value</div></div>
+    <div class="sc"><div class="sl">Q1 2025 off-plan</div><div class="sv">29,100</div><div class="ss">+32.4% YoY · 69% of Q1 sales</div><div class="sd up">▲ Strongest Q1 in decade</div></div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Dubai Off-Plan vs Secondary — Quarterly (thousands)</div><span class="cbadge bc">DLD OFFICIAL</span></div>
+      <div class="leg"><span><i class="sq" style="background:#0050d8"></i>Off-plan</span><span><i class="sq" style="background:#cbd5e1"></i>Secondary / ready</span></div>
+      <div class="cw h260"><canvas id="c_dxb_split" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">Off-Plan Market Share — Dubai 2019–2025</div><span class="cbadge bc">CBRE / DLD</span></div>
+      <div class="cw h260"><canvas id="c_dxb_share_trend" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+    </div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Top 10 Communities by Off-Plan Volume (units)</div><span class="cbadge bc">DLD / CBRE 2024–25</span></div>
+      <div id="dxb_hotspots"><div class="hb-row"><div class="hb-name">JVC</div><div class="hb-track"><div class="hb-fill" style="width:96%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">1436 units</div></div><div class="hb-row"><div class="hb-name">Meydan / MBR City</div><div class="hb-track"><div class="hb-fill" style="width:69%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">1035 units</div></div><div class="hb-row"><div class="hb-name">DAMAC Hills 2</div><div class="hb-track"><div class="hb-fill" style="width:82%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">1232 units</div></div><div class="hb-row"><div class="hb-name">Business Bay</div><div class="hb-track"><div class="hb-fill" style="width:67%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">1001 units</div></div><div class="hb-row"><div class="hb-name">The Valley (Emaar)</div><div class="hb-track"><div class="hb-fill" style="width:58%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">877 units</div></div><div class="hb-row"><div class="hb-name">Dubai Hills Est.</div><div class="hb-track"><div class="hb-fill" style="width:60%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">896 units</div></div><div class="hb-row"><div class="hb-name">DAMAC Lagoons</div><div class="hb-track"><div class="hb-fill" style="width:44%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">664 units</div></div><div class="hb-row"><div class="hb-name">Dubai Creek Harbour</div><div class="hb-track"><div class="hb-fill" style="width:40%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">600 units</div></div><div class="hb-row"><div class="hb-name">Arjan</div><div class="hb-track"><div class="hb-fill" style="width:34%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">505 units</div></div><div class="hb-row"><div class="hb-name">Dubai Marina</div><div class="hb-track"><div class="hb-fill" style="width:32%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">478 units</div></div></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">Off-Plan by Property Type</div><span class="cbadge bc">DLD 2024</span></div>
+      <div class="leg"><span><i class="dot" style="background:#0050d8"></i>Apartments 85%</span><span><i class="dot" style="background:#10b981"></i>Villas / TH 15%</span></div>
+      <div class="cw h180"><canvas id="c_dxb_type" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 mt8">New launches hit <strong>38,918 units in Q1 2024</strong> (+23% QoQ). JVC leads pipeline at <strong>27K units</strong>. Off-plan share peaked at <strong>76% in Q3 2025</strong>. By Oct 2025 a total of <strong>532 projects</strong> launched in 2025 totalling <strong>131.5K units</strong>.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ ABU DHABI ══ -->
+<div id="abudhabi" class="panel">
+  <div class="sh"><h2>Abu Dhabi — Off-Plan Deep Dive</h2><p>ADREC (Abu Dhabi Real Estate Centre) · Cavendish Maxwell · ValuStrat · The Finance 360 · Zawya</p></div>
+  <div class="row c4">
+    <div class="sc"><div class="sl">Off-plan units 2025</div><div class="sv cgreen">15,900</div><div class="ss">ADREC + Cavendish Maxwell full year</div><div class="sd up">▲ +68% vs 9,400 in 2024</div></div>
+    <div class="sc"><div class="sl">Off-plan share 2025</div><div class="sv">71%</div><div class="ss">ADREC 2025 annual report</div><div class="sd up">▲ Structural dominance</div></div>
+    <div class="sc"><div class="sl">Residential value 2025</div><div class="sv">AED 76B</div><div class="ss">+67% YoY · ADREC official</div><div class="sd up">▲ 4× growth since 2022</div></div>
+    <div class="sc"><div class="sl">New project launches 2025</div><div class="sv">56</div><div class="ss">ADREC · incl. Hudayriyat, Al Bahyah</div><div class="sd up">▲ Record launches</div></div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Abu Dhabi Off-Plan Growth — Annual Units (2022–2025)</div><span class="cbadge bc">ADREC</span></div>
+      <div class="cw h260"><canvas id="c_auh_growth" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">Apartments vs Villas — Off-Plan Sales 2025</div><span class="cbadge bc">CAVENDISH MAXWELL</span></div>
+      <div class="leg"><span><i class="dot" style="background:#10b981"></i>Apartments off-plan 10,100</span><span><i class="dot" style="background:#0050d8"></i>Villas / TH ~5,800</span></div>
+      <div class="cw h180"><canvas id="c_auh_type" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 nc mt8">Apartments led with <strong>10,100 off-plan deals</strong> (+58% on 2024). Villas strong at ~7,600 total (+50%). Aldar alone: <strong>AED 30.8B — 40% of market</strong>. Off-plan apartments grew <strong>125%</strong> in 2025.</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ch"><div class="ct">Top Districts by Sales Value (AED millions)</div><span class="cbadge bc">ADREC 2025</span></div>
+    <div id="auh_hotspots"><div class="hb-row"><div class="hb-name">Saadiyat Island</div><div class="hb-track"><div class="hb-fill" style="width:100%;background:#10b981"></div></div><div class="hb-val" style="color:#10b981">AED 14B</div></div><div class="hb-row"><div class="hb-name">Yas Island</div><div class="hb-track"><div class="hb-fill" style="width:82%;background:#1d9e75"></div></div><div class="hb-val" style="color:#1d9e75">AED 11B</div></div><div class="hb-row"><div class="hb-name">Al Reem Island</div><div class="hb-track"><div class="hb-fill" style="width:72%;background:#2dbd8e"></div></div><div class="hb-val" style="color:#2dbd8e">AED 10B</div></div><div class="hb-row"><div class="hb-name">Fahid Island</div><div class="hb-track"><div class="hb-fill" style="width:54%;background:#3dd6a7"></div></div><div class="hb-val" style="color:#3dd6a7">AED 7B</div></div><div class="hb-row"><div class="hb-name">Hudayriyat Island</div><div class="hb-track"><div class="hb-fill" style="width:41%;background:#4de9b9"></div></div><div class="hb-val" style="color:#4de9b9">AED 6B</div></div><div class="hb-row"><div class="hb-name">Al Bahyah</div><div class="hb-track"><div class="hb-fill" style="width:23%;background:#6ef2c9"></div></div><div class="hb-val" style="color:#6ef2c9">AED 3B</div></div><div class="hb-row"><div class="hb-name">Masdar City</div><div class="hb-track"><div class="hb-fill" style="width:13%;background:#8ff5d8"></div></div><div class="hb-val" style="color:#8ff5d8">AED 2B</div></div></div>
+  </div>
+</div>
+
+<!-- ══ NORTHERN ══ -->
+<div id="northern" class="panel">
+  <div class="sh"><h2>Northern Emirates — Sharjah · RAK · Ajman · UAQ · Fujairah</h2><p>SRERD (Sharjah) · ValuStrat / Cavendish Maxwell / Khaleej Times (RAK) · Ajman DED · Market estimates (UAQ, Fujairah)</p></div>
+  <div class="row c4">
+    <div class="sc"><div class="sl">Sharjah 9M 2025</div><div class="sv camber">AED 44B</div><div class="ss">AED 44.3B · 80,320 deals · +58.3% YoY</div><div class="sd up">▲ Exceeded full year 2024</div></div>
+    <div class="sc"><div class="sl">RAK total 2025</div><div class="sv" style="color:#e11d48">AED 15B</div><div class="ss">+118% YoY · 85% off-plan · ValuStrat</div><div class="sd up">▲ Record breaking</div></div>
+    <div class="sc"><div class="sl">Ajman Q1 2024</div><div class="sv cpurple">AED 4.3B</div><div class="ss">+26.6% YoY · Ajman DED</div><div class="sd up">▲ Consistent growth</div></div>
+    <div class="sc"><div class="sl">UAQ off-plan est.</div><div class="sv" style="color:#0891b2">~1.5K</div><div class="ss">Units est. · Sobha Siniya Island leading</div><div class="sd neu">▲ Emerging market</div></div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Sharjah — Transaction Value Growth (AED Billions)</div><span class="cbadge bc">SRERD OFFICIAL</span></div>
+      <div class="cw h240"><canvas id="c_shj_growth" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 mt8">H1 2025: AED 27B (+48.1% vs H1 2024). Feb 2025: Arada sold <strong>2,000 units worth AED 5.6B in 3 hours</strong> (Masaar 2). Sharjah launched <strong>12,361 freehold units</strong> in 2025 (Savills). Off-plan volume +20–25% in 2025.</div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">RAK — Total Transaction Value by Year (AED Billions)</div><span class="cbadge bc">VALUSTRAT / KT</span></div>
+      <div class="cw h240"><canvas id="c_rak_growth" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 mt8">RAK off-plan: <strong>85% of freehold sales</strong>. Off-plan avg AED 1.98M vs ready AED 1.16M. ValuStrat Price Index +13.8% in 2025. Al Marjan villas +20% YoY. Wynn Resort (2027) driving demand. RAK apartments +18% YoY (Colliers Q3 2025).</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ch"><div class="ct">Northern Emirates — Off-Plan Hotspots &amp; Key Projects</div><span class="cbadge bp">MARKET DATA</span></div>
+    <div class="tscroll">
+      <table class="dt"><thead><tr><th>Emirate</th><th>Top Area</th><th class="r">Price Range (AED)</th><th class="r">Off-Plan %</th><th>Key Developer</th><th>Standout Project</th></tr></thead>
+      <tbody id="northern_tbody"><tr><td style="font-weight:600">Sharjah</td><td style="color:var(--g500)">Aljada / Muwaileh</td><td class="r m">AED 500K–1.5M</td><td class="r m">~25%</td><td style="font-size:10px;color:var(--g500)">Arada / Alef Group</td><td style="font-size:10px;color:var(--g500)">Masaar 2 (2,000 units)</td></tr><tr><td style="font-weight:600">RAK</td><td style="color:var(--g500)">Al Marjan Island</td><td class="r m">AED 1.5M–5M+</td><td class="r m">85%</td><td style="font-size:10px;color:var(--g500)">RAK Properties / Mered</td><td style="font-size:10px;color:var(--g500)">Wynn Residences</td></tr><tr><td style="font-weight:600">Ajman</td><td style="color:var(--g500)">Al Hamidiyah</td><td class="r m">AED 300K–800K</td><td class="r m">~60%</td><td style="font-size:10px;color:var(--g500)">Ajman Uptown / Tiger</td><td style="font-size:10px;color:var(--g500)">Emirates City Ph.3</td></tr><tr><td style="font-weight:600">UAQ</td><td style="color:var(--g500)">Siniya Island</td><td class="r m">AED 230K–130M</td><td class="r m">~70%</td><td style="font-size:10px;color:var(--g500)">Sobha Realty</td><td style="font-size:10px;color:var(--g500)">Sobha Siniya Island</td></tr><tr><td style="font-weight:600">Fujairah</td><td style="color:var(--g500)">Fujairah Corniche</td><td class="r m">AED 500K–1.2M</td><td class="r m">~30%</td><td style="font-size:10px;color:var(--g500)">Local developers</td><td style="font-size:10px;color:var(--g500)">Boutique projects</td></tr></tbody></table>
+    </div>
+  </div>
+</div>
+
+<!-- ══ HOTSPOTS ══ -->
+<div id="hotspots" class="panel">
+  <div class="sh"><h2>UAE Off-Plan Hotspot Locations</h2><p>Top areas by transaction volume, price growth and investment activity · DLD · ADREC · ValuStrat · Property Monitor 2024–2025</p></div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Dubai — Top Communities by Off-Plan Volume (units)</div><span class="cbadge bc">DLD / CBRE 2024–25</span></div>
+      <div id="dxb_hs2"><div class="hb-row"><div class="hb-name">JVC</div><div class="hb-track"><div class="hb-fill" style="width:96%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">1436 units</div></div><div class="hb-row"><div class="hb-name">Meydan / MBR City</div><div class="hb-track"><div class="hb-fill" style="width:69%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">1035 units</div></div><div class="hb-row"><div class="hb-name">DAMAC Hills 2</div><div class="hb-track"><div class="hb-fill" style="width:82%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">1232 units</div></div><div class="hb-row"><div class="hb-name">Business Bay</div><div class="hb-track"><div class="hb-fill" style="width:67%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">1001 units</div></div><div class="hb-row"><div class="hb-name">The Valley (Emaar)</div><div class="hb-track"><div class="hb-fill" style="width:58%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">877 units</div></div><div class="hb-row"><div class="hb-name">Dubai Hills Est.</div><div class="hb-track"><div class="hb-fill" style="width:60%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">896 units</div></div><div class="hb-row"><div class="hb-name">DAMAC Lagoons</div><div class="hb-track"><div class="hb-fill" style="width:44%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">664 units</div></div><div class="hb-row"><div class="hb-name">Dubai Creek Harbour</div><div class="hb-track"><div class="hb-fill" style="width:40%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">600 units</div></div><div class="hb-row"><div class="hb-name">Arjan</div><div class="hb-track"><div class="hb-fill" style="width:34%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">505 units</div></div><div class="hb-row"><div class="hb-name">Dubai Marina</div><div class="hb-track"><div class="hb-fill" style="width:32%;background:#0050d8"></div></div><div class="hb-val" style="color:#0050d8">478 units</div></div></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">Abu Dhabi — Top Districts by Sales Value (AED millions)</div><span class="cbadge bc">ADREC 2025</span></div>
+      <div id="auh_hs2"><div class="hb-row"><div class="hb-name">Saadiyat Island</div><div class="hb-track"><div class="hb-fill" style="width:100%;background:#10b981"></div></div><div class="hb-val" style="color:#10b981">AED 14B</div></div><div class="hb-row"><div class="hb-name">Yas Island</div><div class="hb-track"><div class="hb-fill" style="width:82%;background:#1d9e75"></div></div><div class="hb-val" style="color:#1d9e75">AED 11B</div></div><div class="hb-row"><div class="hb-name">Al Reem Island</div><div class="hb-track"><div class="hb-fill" style="width:72%;background:#2dbd8e"></div></div><div class="hb-val" style="color:#2dbd8e">AED 10B</div></div><div class="hb-row"><div class="hb-name">Fahid Island</div><div class="hb-track"><div class="hb-fill" style="width:54%;background:#3dd6a7"></div></div><div class="hb-val" style="color:#3dd6a7">AED 7B</div></div><div class="hb-row"><div class="hb-name">Hudayriyat Island</div><div class="hb-track"><div class="hb-fill" style="width:41%;background:#4de9b9"></div></div><div class="hb-val" style="color:#4de9b9">AED 6B</div></div><div class="hb-row"><div class="hb-name">Al Bahyah</div><div class="hb-track"><div class="hb-fill" style="width:23%;background:#6ef2c9"></div></div><div class="hb-val" style="color:#6ef2c9">AED 3B</div></div><div class="hb-row"><div class="hb-name">Masdar City</div><div class="hb-track"><div class="hb-fill" style="width:13%;background:#8ff5d8"></div></div><div class="hb-val" style="color:#8ff5d8">AED 2B</div></div></div>
+    </div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">RAK — Price Growth by Location (%YoY)</div><span class="cbadge bc">VALUSTRAT 2025</span></div>
+      <div id="rak_hs"><div class="hb-row"><div class="hb-name">Al Marjan Island</div><div class="hb-track"><div class="hb-fill" style="width:100%;background:#e11d48"></div></div><div class="hb-val" style="color:#e11d48">+20% YoY</div></div><div class="hb-row"><div class="hb-name">Mina Al Arab</div><div class="hb-track"><div class="hb-fill" style="width:100%;background:#e11d48"></div></div><div class="hb-val" style="color:#e11d48">+20% YoY</div></div><div class="hb-row"><div class="hb-name">RAK Central</div><div class="hb-track"><div class="hb-fill" style="width:75%;background:#e11d48"></div></div><div class="hb-val" style="color:#e11d48">+15% YoY</div></div><div class="hb-row"><div class="hb-name">Al Hamra Village</div><div class="hb-track"><div class="hb-fill" style="width:65%;background:#e11d48"></div></div><div class="hb-val" style="color:#e11d48">+13% YoY</div></div><div class="hb-row"><div class="hb-name">Hay Al Uraibi</div><div class="hb-track"><div class="hb-fill" style="width:50%;background:#e11d48"></div></div><div class="hb-val" style="color:#e11d48">+10% YoY</div></div></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">Sharjah — Top Off-Plan Communities (units)</div><span class="cbadge bc">SRERD / SAVILLS</span></div>
+      <div id="shj_hs"><div class="hb-row"><div class="hb-name">Aljada (Arada)</div><div class="hb-track"><div class="hb-fill" style="width:100%;background:#f59e0b"></div></div><div class="hb-val" style="color:#f59e0b">2,000 units</div></div><div class="hb-row"><div class="hb-name">Muwaileh Comm.</div><div class="hb-track"><div class="hb-fill" style="width:70%;background:#f59e0b"></div></div><div class="hb-val" style="color:#f59e0b">1,400 units</div></div><div class="hb-row"><div class="hb-name">Al Zahia</div><div class="hb-track"><div class="hb-fill" style="width:45%;background:#f59e0b"></div></div><div class="hb-val" style="color:#f59e0b">900 units</div></div><div class="hb-row"><div class="hb-name">Tilal City</div><div class="hb-track"><div class="hb-fill" style="width:35%;background:#f59e0b"></div></div><div class="hb-val" style="color:#f59e0b">700 units</div></div><div class="hb-row"><div class="hb-name">Sharjah Waterfront</div><div class="hb-track"><div class="hb-fill" style="width:25%;background:#f59e0b"></div></div><div class="hb-val" style="color:#f59e0b">500 units</div></div></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ch"><div class="ct">UAE-Wide Hotspots — Avg Price vs YoY Growth (Bubble = volume)</div><span class="cbadge be">DERIVED ANALYSIS</span></div>
+    <div class="cw h300"><canvas id="c_hotspot_scatter" height="450" style="display: block; box-sizing: border-box; height: 300px; width: 1214px;" width="1822"></canvas></div>
+  </div>
+</div>
+
+<!-- ══ TRENDS ══ -->
+<div id="trends" class="panel">
+  <div class="sh"><h2>Price Trends &amp; Market Dynamics</h2><p>Avg price per sqft · YoY appreciation · Rental yields · Off-plan premium analysis · 2024–2025</p></div>
+  <div class="row c4">
+    <div class="sc"><div class="sl">Dubai avg price Mar 2026</div><div class="sv cblue">AED 1,871</div><div class="ss">Per sqft apartments · +16.1% YoY (Q3 2025)</div><div class="sd up">▲ Historic high</div></div>
+    <div class="sc"><div class="sl">Abu Dhabi apt growth 2025</div><div class="sv cgreen">+19%</div><div class="ss">Yas Island +18% · Al Reem +17% · ADREC</div><div class="sd up">▲ Sharpest in years</div></div>
+    <div class="sc"><div class="sl">RAK price growth 2024</div><div class="sv camber">+35%</div><div class="ss">Annual · Al Marjan villas +20% · ValuStrat</div><div class="sd up">▲ Fastest in UAE</div></div>
+    <div class="sc"><div class="sl">Dubai gross rental yield</div><div class="sv">7.3%</div><div class="ss">Apartments · Q1 2025 · Cavendish Maxwell</div><div class="sd neu">Outperforms global mkts</div></div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Average Price Per Sqft — by Location (AED)</div><span class="cbadge bc">VALUSTRAT / JLL / DLD</span></div>
+      <div class="cw h260"><canvas id="c_price_bar" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">YoY Price Appreciation by Segment (2025 %)</div><span class="cbadge bc">VALUSTRAT / ADREC / CBRE</span></div>
+      <div class="cw h260"><canvas id="c_appreciation" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+    </div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Gross Rental Yields by Emirate / Segment (2025 %)</div><span class="cbadge bc">GLOBAL PROPERTY GUIDE / REIDIN</span></div>
+      <div class="cw h220"><canvas id="c_yields" height="330" style="display: block; box-sizing: border-box; height: 220px; width: 585px;" width="878"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">Off-Plan: Launch Discount vs Expected Appreciation (%)</div><span class="cbadge be">MARKET ANALYSIS</span></div>
+      <div class="cw h180"><canvas id="c_premium" height="439" style="display: block; box-sizing: border-box; height: 292px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 nw mt8">Off-plan prices typically <strong>15–30% below comparable ready units</strong> at launch, with potential appreciation of 15–50% by completion. RAK's Sobha Siniya Island projects expect <strong>40–50% capital growth</strong> by handover.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ SEP 2025 – MAR 2026 ══ -->
+<div id="recent" class="panel active">
+  <div class="sh"><h2>Sep 2025 – Mar 2026 — Granular Period Analysis</h2><p>DLD · ADREC · SRERD · ValuStrat · DXB Analytics · Cavendish Maxwell · Colliers · Sherwoods · AGBI · Aiqya</p></div>
+  <div class="row c4">
+    <div class="sc"><div class="sl">Dubai Q3 2025 off-plan</div><div class="sv cblue">42,000</div><div class="ss">Record Q3 · +23.6% YoY · 76% of market</div><div class="sd up">▲ Highest Q3 ever</div></div>
+    <div class="sc"><div class="sl">Dubai Q4 2025 value</div><div class="sv">AED 187B</div><div class="ss">Oct AED 58.4B · Nov AED 64.2B · Dec AED 64.8B</div><div class="sd up">▲ +26.9% YoY · Strongest Q4 ever</div></div>
+    <div class="sc"><div class="sl">Dubai Dec 2025 transactions</div><div class="sv cgreen">19,220</div><div class="ss">+52% vs Dec 2024 · DLD</div><div class="sd up">▲ Biggest Dec on record</div></div>
+    <div class="sc"><div class="sl">Dubai Q1 2026 value</div><div class="sv">AED 137B</div><div class="ss">45,221 transactions · +18.8% YoY</div><div class="sd up">▲ Value held vs Q4 vol. dip</div></div>
+  </div>
+  <div class="card" style="margin-bottom:10px">
+    <div class="ch"><div class="ct">Dubai — Monthly Transaction Volume Sep 2025 – Mar 2026</div><span class="cbadge bc">DLD / DXB ANALYTICS</span></div>
+    <div class="leg"><span><i class="sq" style="background:#0050d8;opacity:.3"></i>Total transactions</span><span><i class="sq" style="background:#0050d8"></i>Off-plan estimate</span><span><i class="dot" style="background:#10b981"></i>Value AED B (right axis)</span></div>
+    <div class="cw h280"><canvas id="c_monthly_dxb" height="420" style="display: block; box-sizing: border-box; height: 280px; width: 1214px;" width="1822"></canvas></div>
+    <div class="nb2 nc mt8">Monthly volumes: Sep 2025 (20,308 — highest single month of year) → Record Q4 2025 at AED 187.5B total. Dec 2025: <strong>+52% vs Dec 2024</strong>. Jan–Feb 2026: 28,237 total DLD, pacing 200K+ year. Off-plan share rose to <strong>80%+ in Apr 2026</strong> (first 15 days).</div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Dubai Off-Plan Share — Quarterly Trend Q1 2025 – Apr 2026</div><span class="cbadge bc">DLD / AIQYA / CAVENDISH MAXWELL</span></div>
+      <div class="cw h250"><canvas id="c_opshare_recent" height="375" style="display: block; box-sizing: border-box; height: 250px; width: 585px;" width="878"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">Dubai Avg Price Per Sqft — Monthly Sep 2025 – Mar 2026</div><span class="cbadge bc">DXB ANALYTICS / PROPERTY MONITOR</span></div>
+      <div class="cw h250"><canvas id="c_ppsf_monthly" height="375" style="display: block; box-sizing: border-box; height: 250px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 mt8">Apartments: AED 1,871/sqft Mar 2026 (+1.0% QoQ). Villas: AED 2,376/sqft (+1.9% QoQ). Villa–apartment gap widened from AED 478 → AED 505/sqft in Q1 2026. Minor −0.3% MoM dip in Mar — healthy consolidation.</div>
+    </div>
+  </div>
+  <div class="card" style="margin-bottom:10px">
+    <div class="ch"><div class="ct">Abu Dhabi — Quarterly Off-Plan Detail Sep 2025 – Jan 2026</div><span class="cbadge bc">ADREC · VALUSTRAT · AGBI</span></div>
+    <div class="tscroll">
+      <table class="dt"><thead><tr>
+        <th>Period</th><th class="r">Total Trans.</th><th class="r">Off-Plan Units</th>
+        <th class="r">Off-Plan %</th><th class="r">Value (AED)</th><th class="r">Price Growth YoY</th><th>Key Note</th>
+      </tr></thead><tbody id="auh_period_body"><tr><td style="font-weight:600">Q1 2025</td><td class="r m">~3,300</td><td class="r m">~1,000</td><td class="r m" style="color:var(--green)">~30%</td><td class="r m">AED 8.9B</td><td class="r m" style="color:var(--blue)">+14.4% apt YoY</td><td style="font-size:9px;color:var(--g500)">Limited new launches; H1 dip due to fewer projects</td></tr><tr><td style="font-weight:600">Q2 2025</td><td class="r m">~3,800</td><td class="r m">~2,000</td><td class="r m" style="color:var(--green)">~53%</td><td class="r m">est. AED 12B</td><td class="r m" style="color:var(--blue)">+15% apt YoY</td><td style="font-size:9px;color:var(--g500)">Q2 recovery; off-plan ticked up</td></tr><tr><td style="font-weight:600">Q3 2025</td><td class="r m">~5,500</td><td class="r m">~4,345</td><td class="r m" style="color:var(--green)">79%</td><td class="r m">est. AED 22B</td><td class="r m" style="color:var(--blue)">+10.5% VPI YoY</td><td style="font-size:9px;color:var(--g500)">Strongest capital growth on record · ValuStrat · Villa +12% YoY</td></tr><tr><td style="font-weight:600">Q4 2025</td><td class="r m">~5,800</td><td class="r m">~4,640</td><td class="r m" style="color:var(--green)">~80%</td><td class="r m">est. AED 25B</td><td class="r m" style="color:var(--blue)">+13.1% annual</td><td style="font-size:9px;color:var(--g500)">Record year end · ADREC full-year AED 76B residential</td></tr><tr><td style="font-weight:600">Jan 2026</td><td class="r m">2,600</td><td class="r m">2,158</td><td class="r m" style="color:var(--green)">83%</td><td class="r m">AED 12B</td><td class="r m" style="color:var(--blue)">+67% YoY pace</td><td style="font-size:9px;color:var(--g500)">$3.2B single month · 83% off-plan · Benoit Properties / ADREC</td></tr></tbody></table>
+    </div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Abu Dhabi — Off-Plan Share Acceleration</div><span class="cbadge bc">ADREC / VALUSTRAT</span></div>
+      <div class="cw h240"><canvas id="c_auh_opshare" height="439" style="display: block; box-sizing: border-box; height: 293px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 nc mt8">Off-plan share jumped from <strong>71% full-year 2025</strong> → <strong>79% in Q3 2025</strong> → <strong>83% in Jan 2026</strong>. ValuStrat VPI rose <strong>10.5% YoY in Q3</strong> — strongest on record. Villa values +12% annually.</div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">RAK — Off-Plan Dominance Jan–Sep 2025 (units)</div><span class="cbadge bc">VALUSTRAT / AGBI</span></div>
+      <div class="cw h200"><canvas id="c_rak_period" height="300" style="display: block; box-sizing: border-box; height: 200px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 mt8">Jan–Sep 2025: <strong>84% of sales were off-plan</strong> — 4,100+ units at avg AED 2M. Only 776 ready homes sold. RAK prices +15% YoY · Al Marjan +17%. Average price climbed from AED 2,049/sqft (2023) to AED 2,838/sqft (2025) — a <strong>39% rise in 2 years</strong>.</div>
+    </div>
+  </div>
+  <div class="card" style="margin-bottom:10px">
+    <div class="ch"><div class="ct">Month-by-Month Log — All Emirates Sep 2025 – Apr 2026</div><span class="cbadge bc">MULTI-SOURCE COMPILED</span></div>
+    <div class="tscroll sy">
+      <table class="dt"><thead><tr>
+        <th>Month</th><th>Emirate</th><th class="r">Transactions / Value</th><th class="r">Off-Plan %</th><th>Key Data Point</th><th>Source</th>
+      </tr></thead><tbody id="monthly_log_body"><tr><td style="font-weight:600;white-space:nowrap">Sep 2025</td><td><span style="background:#0050d8;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Dubai</span></td><td class="r m">20,308 transactions</td><td class="r m" style="color:var(--green)">~75%</td><td style="font-size:10px;color:var(--g700)">Highest single month of 2025 · AED 65B</td><td style="font-size:9px;color:var(--g300)">DXB Analytics</td></tr><tr><td style="font-weight:600;white-space:nowrap">Sep 2025</td><td><span style="background:#10b981;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Abu Dhabi</span></td><td class="r m">~1,800 trans.</td><td class="r m" style="color:var(--green)">79% (Q3)</td><td style="font-size:10px;color:var(--g700)">Q3 strongest capital growth on record · VPI +10.5% YoY</td><td style="font-size:9px;color:var(--g300)">ValuStrat / AGBI</td></tr><tr><td style="font-weight:600;white-space:nowrap">Sep 2025</td><td><span style="background:#e11d48;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">RAK</span></td><td class="r m">~400 trans.</td><td class="r m" style="color:var(--green)">84%</td><td style="font-size:10px;color:var(--g700)">4,100+ total Jan–Sep · avg AED 2M off-plan</td><td style="font-size:9px;color:var(--g300)">AGBI / Marjan</td></tr><tr><td style="font-weight:600;white-space:nowrap">Sep 2025</td><td><span style="background:#f59e0b;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Sharjah</span></td><td class="r m">~9,000 trans.</td><td class="r m" style="color:var(--green)">~25%</td><td style="font-size:10px;color:var(--g700)">9M total hit 80,320 · AED 44.3B vs AED 28B prior year</td><td style="font-size:9px;color:var(--g300)">SRERD / KT</td></tr><tr><td style="font-weight:600;white-space:nowrap">Oct 2025</td><td><span style="background:#0050d8;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Dubai</span></td><td class="r m">~21K trans. · AED 58.4B</td><td class="r m" style="color:var(--green)">~75%</td><td style="font-size:10px;color:var(--g700)">Q4 2025 opens strong · Oct historically busiest month</td><td style="font-size:9px;color:var(--g300)">DXB Analytics</td></tr><tr><td style="font-weight:600;white-space:nowrap">Oct 2025</td><td><span style="background:#f59e0b;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Sharjah</span></td><td class="r m">12,539 trans. · AED 7B</td><td class="r m" style="color:var(--green)">~25%</td><td style="font-size:10px;color:var(--g700)">+54.1% YoY value · 1,307 initial sale contracts</td><td style="font-size:9px;color:var(--g300)">SRERD / Gulf Today</td></tr><tr><td style="font-weight:600;white-space:nowrap">Nov 2025</td><td><span style="background:#0050d8;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Dubai</span></td><td class="r m">~19.8K trans. · AED 64.2B</td><td class="r m" style="color:var(--green)">~75%</td><td style="font-size:10px;color:var(--g700)">Strongest Nov value on record</td><td style="font-size:9px;color:var(--g300)">Roya Int'l / DLD</td></tr><tr><td style="font-weight:600;white-space:nowrap">Dec 2025</td><td><span style="background:#0050d8;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Dubai</span></td><td class="r m">19,220 trans. · AED 64.8B</td><td class="r m" style="color:var(--green)">&gt;75%</td><td style="font-size:10px;color:var(--g700)">+52% vs Dec 2024 · Q4 total AED 187.5B (+26.9%)</td><td style="font-size:9px;color:var(--g300)">Roya Int'l / DLD</td></tr><tr><td style="font-weight:600;white-space:nowrap">Dec 2025</td><td><span style="background:#10b981;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Abu Dhabi</span></td><td class="r m">~1,900 trans.</td><td class="r m" style="color:var(--green)">~80%</td><td style="font-size:10px;color:var(--g700)">Full year 2025: 21,279 trans. (+47.4% YoY) · AED 76B res.</td><td style="font-size:9px;color:var(--g300)">ADREC / Global Prop.</td></tr><tr><td style="font-weight:600;white-space:nowrap">Jan 2026</td><td><span style="background:#0050d8;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Dubai</span></td><td class="r m">~14.5K total DLD</td><td class="r m" style="color:var(--green)">~70%</td><td style="font-size:10px;color:var(--g700)">Q1 quiet season · Jan traditionally lowest · on 200K+ pace</td><td style="font-size:9px;color:var(--g300)">DXB Analytics</td></tr><tr><td style="font-weight:600;white-space:nowrap">Jan 2026</td><td><span style="background:#10b981;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Abu Dhabi</span></td><td class="r m">2,600 trans. · AED 12B</td><td class="r m" style="color:var(--green)">83%</td><td style="font-size:10px;color:var(--g700)">$3.2B in Jan alone · +67% YoY pace · 56 new projects in 2025</td><td style="font-size:9px;color:var(--g300)">Benoit Prop. / ADREC</td></tr><tr><td style="font-weight:600;white-space:nowrap">Feb 2026</td><td><span style="background:#0050d8;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Dubai</span></td><td class="r m">~13.7K total DLD</td><td class="r m" style="color:var(--green)">~70%</td><td style="font-size:10px;color:var(--g700)">Golden Visa 50% upfront rule scrapped Feb 20 · widened buyers</td><td style="font-size:9px;color:var(--g300)">DXB Analytics</td></tr><tr><td style="font-weight:600;white-space:nowrap">Q1 2026</td><td><span style="background:#0050d8;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Dubai</span></td><td class="r m">45,221 · AED 137.3B</td><td class="r m" style="color:var(--green)">70%</td><td style="font-size:10px;color:var(--g700)">+18.8% YoY value · apt AED 1,871/sqft · villa AED 2,376/sqft</td><td style="font-size:9px;color:var(--g300)">Sherwoods / DLD</td></tr><tr><td style="font-weight:600;white-space:nowrap">Mar 2026</td><td><span style="background:#0050d8;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Dubai</span></td><td class="r m">~17K trans.</td><td class="r m" style="color:var(--green)">&gt;70%</td><td style="font-size:10px;color:var(--g700)">Price −0.3% MoM (healthy consolidation) · value held firm</td><td style="font-size:9px;color:var(--g300)">Sherwoods</td></tr><tr><td style="font-weight:600;white-space:nowrap">Apr 1–15 2026</td><td><span style="background:#0050d8;color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">Dubai</span></td><td class="r m">Strong 15-day data</td><td class="r m" style="color:var(--green)">&gt;80%</td><td style="font-size:10px;color:var(--g700)">Off-plan dominance deepened · median AED 1,839/sqft apts</td><td style="font-size:9px;color:var(--g300)">Aiqya (DLD data)</td></tr></tbody></table>
+    </div>
+  </div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct">Dubai Cumulative Launches 2025 (thousands of units)</div><span class="cbadge bc">DLD / ROYA INT'L</span></div>
+      <div class="cw h240"><canvas id="c_launches" height="439" style="display: block; box-sizing: border-box; height: 293px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 mt8">By Oct 2025: <strong>532 projects launched · 131.5K units</strong> (91.2% apartments). Pipeline: <strong>~55K units in 2026</strong>, ~75K in 2027. Historical completion rate ~48% of planned — softens oversupply risk.</div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct">Q1 2026 Dubai — Off-Plan vs Ready by Month (thousands)</div><span class="cbadge bc">SHERWOODS / DLD</span></div>
+      <div class="cw h200"><canvas id="c_q1_2026" height="300" style="display: block; box-sizing: border-box; height: 200px; width: 585px;" width="878"></canvas></div>
+      <div class="nb2 nw mt8"><strong>Golden Visa change (Feb 20, 2026):</strong> 50% upfront rule scrapped — widened buyer pool. Q1 2026: 45,221 transactions · AED 137.3B (−0.4% vs Q4 but +18.8% YoY). Off-plan: <strong>70% of Q1 2026 transactions · 71% of value</strong>.</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="ch"><div class="ct">Northern Emirates — Price Growth Sep 2025 – Mar 2026 (%)</div><span class="cbadge bc">COLLIERS Q3 2025 / VALUSTRAT</span></div>
+    <div class="cw h220"><canvas id="c_northern_period" height="330" style="display: block; box-sizing: border-box; height: 220px; width: 1214px;" width="1822"></canvas></div>
+    <div class="nb2 mt8">Colliers Q3 2025: RAK apartments <strong>+4% QoQ / +18% YoY</strong> · Sharjah apartments <strong>+3% QoQ / +12% YoY</strong>. Sharjah launched <strong>12,361 freehold units</strong> with healthy absorption (Savills Nov 2025). RAK delivered 1,200 new homes in 2025; 8,400 in pipeline 2026–2028.</div>
+  </div>
+</div>
+
+<!-- ══ NOTES ══ -->
+<div id="notes" class="panel">
+  <div class="sh"><h2>Data Notes, Sources &amp; Confidence Levels</h2><p>What is confirmed, estimated or pending · as of April 2026</p></div>
+  <div class="row c2">
+    <div class="card">
+      <div class="ch"><div class="ct" style="color:var(--green)">✓ High-confidence confirmed data</div><span class="cbadge bc">OFFICIAL</span></div>
+      <div id="conf_kv"><div class="kv"><span class="kk">Dubai off-plan Q1 2025 units</span><span class="kva" style="font-size:9px">29,100 · Cavendish Maxwell / DLD</span></div><div class="kv"><span class="kk">Dubai off-plan H1 2025 value</span><span class="kva" style="font-size:9px">AED 77B · Cavendish Maxwell</span></div><div class="kv"><span class="kk">Dubai total H1 2025 transactions</span><span class="kva" style="font-size:9px">125,538 · DLD official</span></div><div class="kv"><span class="kk">Dubai full year 2025 sales</span><span class="kva" style="font-size:9px">205,100 transactions · AED 540B · DLD</span></div><div class="kv"><span class="kk">Dubai off-plan share 2025</span><span class="kva" style="font-size:9px">63% of all 2025 sales · DXB Analytics</span></div><div class="kv"><span class="kk">Dubai Q3 2025 off-plan</span><span class="kva" style="font-size:9px">42,000 units · 76% share · Cavendish Maxwell</span></div><div class="kv"><span class="kk">Dubai Q4 2025 total value</span><span class="kva" style="font-size:9px">AED 187.5B · Roya Int'l / DLD</span></div><div class="kv"><span class="kk">Dubai Dec 2025</span><span class="kva" style="font-size:9px">19,220 trans. · +52% YoY · DLD</span></div><div class="kv"><span class="kk">Dubai Q1 2026 value</span><span class="kva" style="font-size:9px">AED 137.3B · 45,221 trans. · Sherwoods / DLD</span></div><div class="kv"><span class="kk">Abu Dhabi off-plan units 2025</span><span class="kva" style="font-size:9px">15,900 · ADREC + Cavendish Maxwell</span></div><div class="kv"><span class="kk">Abu Dhabi residential value 2025</span><span class="kva" style="font-size:9px">AED 76B · +67% YoY · ADREC</span></div><div class="kv"><span class="kk">Abu Dhabi off-plan share 2025</span><span class="kva" style="font-size:9px">71% full year · 79% Q3 · 83% Jan 2026</span></div><div class="kv"><span class="kk">Abu Dhabi Jan 2026</span><span class="kva" style="font-size:9px">2,600 trans. · AED 12B · 83% off-plan · ADREC</span></div><div class="kv"><span class="kk">Sharjah 9M 2025 value</span><span class="kva" style="font-size:9px">AED 44.3B · SRERD official</span></div><div class="kv"><span class="kk">Sharjah 9M 2025 transactions</span><span class="kva" style="font-size:9px">80,320 · SRERD official</span></div><div class="kv"><span class="kk">RAK total value 2025</span><span class="kva" style="font-size:9px">AED 15B · +118% · ValuStrat / Khaleej Times</span></div><div class="kv"><span class="kk">RAK off-plan freehold share</span><span class="kva" style="font-size:9px">85% · ValuStrat citing developer data</span></div><div class="kv"><span class="kk">RAK Jan–Sep 2025 off-plan units</span><span class="kva" style="font-size:9px">4,100+ at avg AED 2M · AGBI / Marjan</span></div></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div class="ct" style="color:var(--amber)">~ Estimated / derived figures</div><span class="cbadge be">ESTIMATED</span></div>
+      <div id="est_kv"><div class="kv"><span class="kk">Dubai 12M off-plan units ~140K</span><span class="kva" style="font-size:9px;color:var(--amber)">Annualised from Q1+H1 DLD data</span></div><div class="kv"><span class="kk">Sharjah off-plan units ~20K</span><span class="kva" style="font-size:9px;color:var(--amber)">25–30% of 80,320 transactions</span></div><div class="kv"><span class="kk">Ajman off-plan units ~4K</span><span class="kva" style="font-size:9px;color:var(--amber)">Market estimate; no official breakdown</span></div><div class="kv"><span class="kk">UAQ off-plan units ~1.5K</span><span class="kva" style="font-size:9px;color:var(--amber)">Sobha pipeline + Property Finder</span></div><div class="kv"><span class="kk">Fujairah off-plan ~200</span><span class="kva" style="font-size:9px;color:var(--amber)">Property Finder active listings (2 projects)</span></div><div class="kv"><span class="kk">Monthly Dubai off-plan est.</span><span class="kva" style="font-size:9px;color:var(--amber)">63–76% of published total transaction counts</span></div><div class="kv"><span class="kk">Abu Dhabi Q1–Q2 2025 figures</span><span class="kva" style="font-size:9px;color:var(--amber)">Extrapolated from H1 ADREC data</span></div><div class="kv"><span class="kk">Hotspot price/sqft (non-DLD)</span><span class="kva" style="font-size:9px;color:var(--amber)">RAK/Sharjah from ValuStrat estimates</span></div><div class="kv"><span class="kk">Cumulative launch curve 2025</span><span class="kva" style="font-size:9px;color:var(--amber)">Based on Roya Int'l + DLD milestone reports</span></div></div>
+    </div>
+  </div>
+  <div class="card" style="margin-bottom:10px">
+    <div class="ch"><div class="ct">Source Log — All Key Data Points</div><span class="cbadge bc">FULL ATTRIBUTION</span></div>
+    <div class="tscroll sy">
+      <table class="dt"><thead><tr><th>Emirate</th><th>Data Point</th><th>Source</th><th class="r">Confidence</th></tr></thead>
+      <tbody id="source_tbody"><tr><td style="font-weight:600">Dubai</td><td style="font-size:10px">Off-plan Q1 2025 units 29,100</td><td style="font-size:9px;color:var(--g500)">Cavendish Maxwell Dubai Residential Q1 2025</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Dubai</td><td style="font-size:10px">Total H1 2025 125,538 trans.</td><td style="font-size:9px;color:var(--g500)">DLD via DXB Interact / Driven Properties</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Dubai</td><td style="font-size:10px">Full year 2025 205K trans. AED 540B</td><td style="font-size:9px;color:var(--g500)">DLD compiled via DXB Analytics / Global Prop. Guide</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Dubai</td><td style="font-size:10px">Q3 2025 off-plan 42,000 / 76%</td><td style="font-size:9px;color:var(--g500)">Cavendish Maxwell Q3 2025 Residential Report</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Dubai</td><td style="font-size:10px">Q4 2025 AED 187.5B value</td><td style="font-size:9px;color:var(--g500)">Roya International (DLD-sourced)</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Dubai</td><td style="font-size:10px">Dec 2025 19,220 trans. +52%</td><td style="font-size:9px;color:var(--g500)">Roya International / DLD official</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Dubai</td><td style="font-size:10px">Q1 2026 AED 137.3B 45,221 trans.</td><td style="font-size:9px;color:var(--g500)">Sherwoods Property Q1 2026 Report</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Dubai</td><td style="font-size:10px">Community-level volumes</td><td style="font-size:9px;color:var(--g500)">Emirates NBD Research / CBRE May 2024</td><td class="r"><span style="background:var(--amber);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">Medium</span></td></tr><tr><td style="font-weight:600">Abu Dhabi</td><td style="font-size:10px">Off-plan units 15,900 FY 2025</td><td style="font-size:9px;color:var(--g500)">ADREC 2025 Annual Report + Cavendish Maxwell</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Abu Dhabi</td><td style="font-size:10px">Residential value AED 76B</td><td style="font-size:9px;color:var(--g500)">ADREC 2025 official (Zawya / Royallp.com)</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Abu Dhabi</td><td style="font-size:10px">Jan 2026 AED 12B 83% off-plan</td><td style="font-size:9px;color:var(--g500)">Benoit Properties citing ADREC data</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Abu Dhabi</td><td style="font-size:10px">Q3 2025 VPI +10.5% 79% off-plan</td><td style="font-size:9px;color:var(--g500)">ValuStrat via AGBI Dec 2025</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Sharjah</td><td style="font-size:10px">9M 2025 AED 44.3B 80,320 deals</td><td style="font-size:9px;color:var(--g500)">SRERD official (Gulf Today / PRNewswire)</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">Sharjah</td><td style="font-size:10px">Off-plan growth 20–25% 2025</td><td style="font-size:9px;color:var(--g500)">Valorisimo / Savills Middle East Nov 2025</td><td class="r"><span style="background:var(--amber);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">Medium</span></td></tr><tr><td style="font-weight:600">RAK</td><td style="font-size:10px">AED 15B total 2025 +118%</td><td style="font-size:9px;color:var(--g500)">Khaleej Times citing ValuStrat</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">RAK</td><td style="font-size:10px">3,000+ units 2024 85% off-plan</td><td style="font-size:9px;color:var(--g500)">Khaleej Times citing developer data</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">RAK</td><td style="font-size:10px">Jan–Sep 2025 4,100 off-plan units</td><td style="font-size:9px;color:var(--g500)">AGBI Dec 2025 citing Marjan data</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">RAK</td><td style="font-size:10px">Price +39% since 2023</td><td style="font-size:9px;color:var(--g500)">AGBI / ValuStrat Jan 2026</td><td class="r"><span style="background:var(--amber);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">Medium</span></td></tr><tr><td style="font-weight:600">Ajman</td><td style="font-size:10px">AED 4.3B Q1 2024 +26.6%</td><td style="font-size:9px;color:var(--g500)">Ajman DED via Bayut UAE April roundup</td><td class="r"><span style="background:var(--green);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">High</span></td></tr><tr><td style="font-weight:600">UAQ</td><td style="font-size:10px">Pipeline estimate ~1.5K units</td><td style="font-size:9px;color:var(--g500)">Eplog Offplan / Property Finder</td><td class="r"><span style="background:var(--red);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">Low</span></td></tr><tr><td style="font-weight:600">Fujairah</td><td style="font-size:10px">Pipeline estimate ~200 units</td><td style="font-size:9px;color:var(--g500)">Property Finder active listings count</td><td class="r"><span style="background:var(--red);color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">Low</span></td></tr></tbody></table>
+    </div>
+  </div>
+  <div class="nb2 ne"><strong>Important disclaimer:</strong> UAE off-plan data is fragmented across 7 emirate-level authorities with different reporting methodologies and disclosure standards. Dubai (DLD) and Abu Dhabi (ADREC) publish the most granular official data. Sharjah (SRERD) reports total transactions without always isolating off-plan. RAK, Ajman, UAQ and Fujairah figures are derived from media reports, consultancy estimates and Property Finder pipeline data. Always verify with official authority sources before any investment decision.</div>
+</div>
+
+</div><!-- /wrap -->
+
+<footer>
+  <strong>Sources:</strong> Dubai Land Department (DLD) · Abu Dhabi Real Estate Centre (ADREC) · Sharjah Real Estate Registration Dept (SRERD) · ValuStrat · Cavendish Maxwell · CBRE · JLL · Savills · Property Monitor · Knight Frank · DXB Analytics · Global Property Guide · Colliers · AGBI · Khaleej Times · Gulf Today<br>
+  Dashboard period: April 2024 – April 2026 · Data provisional · Verify with official emirate sources before investment decisions
+</footer>
+
+<script>
+// ── GLOBALS ───────────────────────────────────────────────────────────────────
+Chart.defaults.font.family = "'Inter',system-ui,sans-serif";
+Chart.defaults.font.size = 11;
+var GC = 'rgba(0,0,0,0.06)';
+var TC = '#94a3b8';
+var EC = {Dubai:'#0050d8',AbuDhabi:'#10b981',Sharjah:'#f59e0b',RAK:'#e11d48',Ajman:'#7c3aed',UAQ:'#0891b2',Fujairah:'#64748b'};
+
+function ya(mn,mx,sf){
+  sf = sf||'';
+  return {min:mn,max:mx,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+sf;}}};
+}
+var XA = {grid:{display:false},ticks:{color:TC}};
+var XAS = {grid:{display:false},ticks:{color:TC,font:{size:9},maxRotation:40}};
+
+function fmt(n){return n>=1000?Math.round(n/1000)+'K':n;}
+
+// ── NAV ───────────────────────────────────────────────────────────────────────
+function go(id,btn){
+  document.querySelectorAll('.panel').forEach(function(p){p.classList.remove('active');});
+  document.querySelectorAll('.nb').forEach(function(b){b.classList.remove('active');});
+  document.getElementById(id).classList.add('active');
+  if(btn)btn.classList.add('active');
+  setTimeout(function(){
+    if(window.Chart&&Chart.instances){
+      Chart.instances.forEach(function(c){try{c.resize();}catch(e){}});
+    }
+  },60);
+}
+
+// ── TICKER ────────────────────────────────────────────────────────────────────
+(function(){
+  var items=[
+    ['DUBAI OFF-PLAN 2025','~140K UNITS','tup','▲ +63% of all sales'],
+    ['ABU DHABI OFF-PLAN 2025','15,900 UNITS','tup','▲ +68% YoY'],
+    ['RAK VALUE 2025','AED 15B','tup','▲ +118% YoY'],
+    ['SHARJAH 9M 2025','AED 44.3B','tup','▲ +58.3% YoY'],
+    ['DUBAI Q4 2025','AED 187.5B','tup','▲ Strongest Q4 ever'],
+    ['DUBAI DEC 2025','19,220 TRANS.','tup','▲ +52% vs Dec 2024'],
+    ['ABU DHABI JAN 2026','AED 12B SALES','tup','▲ 83% off-plan'],
+    ['DUBAI Q1 2026','AED 137.3B','tup','▲ +18.8% YoY'],
+    ['RAK PRICE GROWTH','AED 2,838/SQFT','tup','▲ +39% since 2023'],
+    ['DUBAI RENTAL YIELD','7.3% APTS','tup','▲ Cavendish Maxwell'],
+    ['UAE CASH BUYERS','86% DUBAI','tup','Knight Frank Q3 2025'],
+    ['SHARJAH MASAAR 2','2,000 UNITS AED 5.6B','tup','▲ Sold in 3 hours']
+  ];
+  var h='';
+  for(var k=0;k<2;k++) items.forEach(function(t){
+    h+='<div class="ti"><span class="tl">'+t[0]+'</span><span class="tv">'+t[1]+'</span>';
+    if(t[2])h+='<span class="'+t[2]+'">'+t[3]+'</span>';
+    h+='</div>';
+  });
+  document.getElementById('tickercontent').innerHTML=h;
+})();
+
+// ── OVERVIEW ──────────────────────────────────────────────────────────────────
+new Chart(document.getElementById('c_share_pie'),{type:'doughnut',
+  data:{labels:['Dubai (~140K)','Abu Dhabi (15.9K)','Sharjah (~20K)','RAK (3K+)','Ajman (~4K)','UAQ (~1.5K)','Fujairah (~0.2K)'],
+    datasets:[{data:[140,15.9,20,3,4,1.5,0.2],
+      backgroundColor:['#0050d8','#10b981','#f59e0b','#e11d48','#7c3aed','#0891b2','#94a3b8'],
+      borderColor:'white',borderWidth:3}]},
+  options:{responsive:true,maintainAspectRatio:false,cutout:'55%',
+    plugins:{legend:{position:'right',labels:{color:TC,font:{size:9},padding:6,boxWidth:10}},
+    tooltip:{callbacks:{label:function(ctx){return ctx.label+': '+ctx.parsed+'K units';}}}}}
+});
+
+new Chart(document.getElementById('c_emirate_bar'),{type:'bar',
+  data:{labels:['Dubai','Abu Dhabi','Sharjah','RAK','Ajman','UAQ','Fujairah'],
+    datasets:[{data:[140,15.9,20,3,4,1.5,0.2],
+      backgroundColor:['#0050d8','#10b981','#f59e0b','#e11d48','#7c3aed','#0891b2','#94a3b8'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.x+'K units (est.)';}}}},
+    scales:{x:{min:0,max:160,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'K';}}},y:{grid:{display:false},ticks:{color:TC}}}}
+});
+
+new Chart(document.getElementById('c_value_bar'),{type:'bar',
+  data:{labels:['Dubai H1 2025','Abu Dhabi FY 2025','Sharjah 9M 2025','RAK 2025','Ajman 2024','UAQ est.'],
+    datasets:[{data:[431,76,44.3,15,4.3,1],
+      backgroundColor:['#0050d8','#10b981','#f59e0b','#e11d48','#7c3aed','#0891b2'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return 'AED '+ctx.parsed.y+'B';}}},
+    title:{display:true,text:'Note: Dubai = total RE H1; others = residential only',color:TC,font:{size:9}}},
+    scales:{y:ya(0,460,' B'),x:XAS}}
+});
+
+// ── EMIRATE TABLE + CHARTS ────────────────────────────────────────────────────
+(function(){
+  var rows=[
+    {e:'🏙️ Dubai',u:'~140K',v:'AED 431B (H1 2025)',pct:'63–68%',yoy:'+32.4%',avg:'AED 1.3M apt / AED 5.2M villa',hot:'JVC / Business Bay / Marina'},
+    {e:'🕌 Abu Dhabi',u:'15,900',v:'AED 76B residential',pct:'71%',yoy:'+68%',avg:'AED 2.5M (ready)',hot:'Yas / Al Reem / Saadiyat'},
+    {e:'🏗️ Sharjah',u:'~20K est.',v:'AED 44.3B (9M 2025)',pct:'~25–30%',yoy:'+20–25%',avg:'AED 895K median',hot:'Aljada / Muwaileh / Al Zahia'},
+    {e:'🏝️ RAK',u:'3,000+ (2024)',v:'AED 15B (2025)',pct:'85%',yoy:'+118%',avg:'AED 1.98M off-plan',hot:'Al Marjan / Mina Al Arab'},
+    {e:'🌊 Ajman',u:'~4K est.',v:'AED 4.3B+ (Q1 2024)',pct:'~60%',yoy:'+26.6%',avg:'AED 400K–800K',hot:'Al Hamidiyah'},
+    {e:'🌴 UAQ',u:'~1.5K est.',v:'Emerging',pct:'~70% est.',yoy:'N/A',avg:'AED 230K+',hot:'Siniya Island'},
+    {e:'⛰️ Fujairah',u:'~200 est.',v:'Minimal',pct:'~30%',yoy:'N/A',avg:'AED 500K–1.2M',hot:'Fujairah Corniche'}
+  ];
+  var h='';
+  rows.forEach(function(r,i){
+    h+='<tr'+(i===0?' class="hl"':'')+'><td style="font-weight:600;white-space:nowrap">'+r.e+'</td>'
+      +'<td class="r m">'+r.u+'</td><td class="r m" style="white-space:nowrap">'+r.v+'</td>'
+      +'<td class="r m">'+r.pct+'</td><td class="r m" style="color:var(--green)">'+r.yoy+'</td>'
+      +'<td class="r m">'+r.avg+'</td><td style="font-size:10px;color:var(--g500)">'+r.hot+'</td></tr>';
+  });
+  document.getElementById('emirate_tbody').innerHTML=h;
+})();
+
+new Chart(document.getElementById('c_pct_market'),{type:'bar',
+  data:{labels:['RAK','Abu Dhabi','Dubai','UAQ est.','Ajman est.','Sharjah est.','Fujairah est.'],
+    datasets:[{data:[85,71,68,70,60,27,30],
+      backgroundColor:['#e11d48','#10b981','#0050d8','#0891b2','#7c3aed','#f59e0b','#94a3b8'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y+'% off-plan share';}}}},
+    scales:{y:ya(0,100,'%'),x:XAS}}
+});
+
+new Chart(document.getElementById('c_yoy_growth'),{type:'bar',
+  data:{labels:['RAK','Abu Dhabi','Sharjah','Ajman','Dubai','UAQ','Fujairah'],
+    datasets:[{data:[118,68,58.3,26.6,26,15,5],
+      backgroundColor:['#e11d48','#10b981','#f59e0b','#7c3aed','#0050d8','#0891b2','#94a3b8'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return '+'+ctx.parsed.y+'% YoY';}}}},
+    scales:{y:ya(0,130,'%'),x:XAS}}
+});
+
+new Chart(document.getElementById('c_emirate_bar2'),{type:'bar',
+  data:{labels:['Dubai','Abu Dhabi','Sharjah','RAK','Ajman','UAQ','Fujairah'],
+    datasets:[{data:[140,15.9,20,3,4,1.5,0.2],
+      backgroundColor:['#0050d8','#10b981','#f59e0b','#e11d48','#7c3aed','#0891b2','#94a3b8'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y+'K off-plan units (est.)';}}}},
+    scales:{y:{min:0,max:155,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'K';}}},x:XAS}}
+});
+
+// ── DUBAI ─────────────────────────────────────────────────────────────────────
+new Chart(document.getElementById('c_dxb_split'),{type:'bar',
+  data:{labels:['Q1 2024','Q2 2024','Q3 2024','Q4 2024','Q1 2025'],
+    datasets:[
+      {label:'Off-plan',data:[22.1,31.7,34.0,36.0,29.1],backgroundColor:'#0050d8',borderRadius:3,borderSkipped:false},
+      {label:'Secondary',data:[12.3,11.2,12.0,13.0,13.1],backgroundColor:'rgba(203,213,225,0.7)',borderRadius:3,borderSkipped:false}
+    ]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{y:{min:0,max:50,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'K';}}},x:XA}}
+});
+
+new Chart(document.getElementById('c_dxb_share_trend'),{type:'line',
+  data:{labels:['2019','2020','2021','2022','2023','2024','2025'],
+    datasets:[{label:'Off-plan %',data:[30,28,35,50,58,68,63],
+      borderColor:'#0050d8',backgroundColor:'rgba(0,80,216,0.08)',fill:true,
+      tension:0.3,pointRadius:5,pointBackgroundColor:'#0050d8',borderWidth:2.5}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y+'%';}}}},
+    scales:{y:ya(20,80,'%'),x:XA}}
+});
+
+(function(){
+  var dhs=[
+    {n:'JVC',v:1436},{n:'Meydan / MBR City',v:1035},{n:'DAMAC Hills 2',v:1232},
+    {n:'Business Bay',v:1001},{n:'The Valley (Emaar)',v:877},{n:'Dubai Hills Est.',v:896},
+    {n:'DAMAC Lagoons',v:664},{n:'Dubai Creek Harbour',v:600},{n:'Arjan',v:505},{n:'Dubai Marina',v:478}
+  ];
+  var mx=1500;
+  var h=dhs.map(function(d){
+    return '<div class="hb-row"><div class="hb-name">'+d.n+'</div>'
+      +'<div class="hb-track"><div class="hb-fill" style="width:'+Math.round(d.v/mx*100)+'%;background:#0050d8"></div></div>'
+      +'<div class="hb-val" style="color:#0050d8">'+d.v+' units</div></div>';
+  }).join('');
+  document.getElementById('dxb_hotspots').innerHTML=h;
+  document.getElementById('dxb_hs2').innerHTML=h;
+})();
+
+new Chart(document.getElementById('c_dxb_type'),{type:'doughnut',
+  data:{labels:['Apartments (85%)','Villas & TH (15%)'],
+    datasets:[{data:[85,15],backgroundColor:['#0050d8','#10b981'],borderColor:'white',borderWidth:3}]},
+  options:{responsive:true,maintainAspectRatio:false,cutout:'62%',
+    plugins:{legend:{display:false}}}
+});
+
+// ── ABU DHABI ─────────────────────────────────────────────────────────────────
+new Chart(document.getElementById('c_auh_growth'),{type:'bar',
+  data:{labels:['2022','2023','2024','2025'],
+    datasets:[{data:[3.2,6.1,9.4,15.9],
+      backgroundColor:['rgba(16,185,129,0.25)','rgba(16,185,129,0.45)','rgba(16,185,129,0.7)','#10b981'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y+'K off-plan units';}}}},
+    scales:{y:{min:0,max:18,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'K';}}},x:XA}}
+});
+
+new Chart(document.getElementById('c_auh_type'),{type:'doughnut',
+  data:{labels:['Apartments off-plan (10.1K)','Villas / TH (~5.8K)'],
+    datasets:[{data:[10.1,5.8],backgroundColor:['#10b981','#0050d8'],borderColor:'white',borderWidth:3}]},
+  options:{responsive:true,maintainAspectRatio:false,cutout:'60%',
+    plugins:{legend:{display:false}}}
+});
+
+(function(){
+  var ahs=[
+    {n:'Saadiyat Island',v:13700,c:'#10b981'},{n:'Yas Island',v:11200,c:'#1d9e75'},
+    {n:'Al Reem Island',v:9800,c:'#2dbd8e'},{n:'Fahid Island',v:7400,c:'#3dd6a7'},
+    {n:'Hudayriyat Island',v:5600,c:'#4de9b9'},{n:'Al Bahyah',v:3200,c:'#6ef2c9'},
+    {n:'Masdar City',v:1800,c:'#8ff5d8'}
+  ];
+  var mx=13700;
+  var h=ahs.map(function(d){
+    return '<div class="hb-row"><div class="hb-name">'+d.n+'</div>'
+      +'<div class="hb-track"><div class="hb-fill" style="width:'+Math.round(d.v/mx*100)+'%;background:'+d.c+'"></div></div>'
+      +'<div class="hb-val" style="color:'+d.c+'">AED '+Math.round(d.v/1000)+'B</div></div>';
+  }).join('');
+  document.getElementById('auh_hotspots').innerHTML=h;
+  document.getElementById('auh_hs2').innerHTML=h;
+})();
+
+// ── NORTHERN ─────────────────────────────────────────────────────────────────
+new Chart(document.getElementById('c_shj_growth'),{type:'bar',
+  data:{labels:['2022','2023','2024','H1 2025','9M 2025'],
+    datasets:[{data:[18,28,40,27,44.3],
+      backgroundColor:['rgba(245,158,11,0.25)','rgba(245,158,11,0.45)','rgba(245,158,11,0.7)','rgba(245,158,11,0.85)','#f59e0b'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return 'AED '+ctx.parsed.y+'B';}}}},
+    scales:{y:ya(0,55,' B'),x:XA}}
+});
+
+new Chart(document.getElementById('c_rak_growth'),{type:'bar',
+  data:{labels:['2022','2023','2024','2025'],
+    datasets:[{data:[3.1,5.2,6.8,15],
+      backgroundColor:['rgba(225,29,72,0.25)','rgba(225,29,72,0.45)','rgba(225,29,72,0.7)','#e11d48'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return 'AED '+ctx.parsed.y+'B total';}}}},
+    scales:{y:ya(0,18,' B'),x:XA}}
+});
+
+(function(){
+  var rows=[
+    {e:'Sharjah',a:'Aljada / Muwaileh',pr:'AED 500K–1.5M',pct:'~25%',dev:'Arada / Alef Group',proj:'Masaar 2 (2,000 units)'},
+    {e:'RAK',a:'Al Marjan Island',pr:'AED 1.5M–5M+',pct:'85%',dev:'RAK Properties / Mered',proj:'Wynn Residences'},
+    {e:'Ajman',a:'Al Hamidiyah',pr:'AED 300K–800K',pct:'~60%',dev:'Ajman Uptown / Tiger',proj:'Emirates City Ph.3'},
+    {e:'UAQ',a:'Siniya Island',pr:'AED 230K–130M',pct:'~70%',dev:'Sobha Realty',proj:'Sobha Siniya Island'},
+    {e:'Fujairah',a:'Fujairah Corniche',pr:'AED 500K–1.2M',pct:'~30%',dev:'Local developers',proj:'Boutique projects'}
+  ];
+  document.getElementById('northern_tbody').innerHTML=rows.map(function(r){
+    return '<tr><td style="font-weight:600">'+r.e+'</td><td style="color:var(--g500)">'+r.a+'</td>'
+      +'<td class="r m">'+r.pr+'</td><td class="r m">'+r.pct+'</td>'
+      +'<td style="font-size:10px;color:var(--g500)">'+r.dev+'</td>'
+      +'<td style="font-size:10px;color:var(--g500)">'+r.proj+'</td></tr>';
+  }).join('');
+})();
+
+// ── HOTSPOTS ──────────────────────────────────────────────────────────────────
+(function(){
+  var raks=[{n:'Al Marjan Island',v:20},{n:'Mina Al Arab',v:20},{n:'RAK Central',v:15},{n:'Al Hamra Village',v:13},{n:'Hay Al Uraibi',v:10}];
+  document.getElementById('rak_hs').innerHTML=raks.map(function(d){
+    return '<div class="hb-row"><div class="hb-name">'+d.n+'</div>'
+      +'<div class="hb-track"><div class="hb-fill" style="width:'+(d.v*5)+'%;background:#e11d48"></div></div>'
+      +'<div class="hb-val" style="color:#e11d48">+'+d.v+'% YoY</div></div>';
+  }).join('');
+
+  var shjs=[{n:'Aljada (Arada)',v:2000},{n:'Muwaileh Comm.',v:1400},{n:'Al Zahia',v:900},{n:'Tilal City',v:700},{n:'Sharjah Waterfront',v:500}];
+  var mx=2000;
+  document.getElementById('shj_hs').innerHTML=shjs.map(function(d){
+    return '<div class="hb-row"><div class="hb-name">'+d.n+'</div>'
+      +'<div class="hb-track"><div class="hb-fill" style="width:'+Math.round(d.v/mx*100)+'%;background:#f59e0b"></div></div>'
+      +'<div class="hb-val" style="color:#f59e0b">'+d.v.toLocaleString()+' units</div></div>';
+  }).join('');
+})();
+
+new Chart(document.getElementById('c_hotspot_scatter'),{type:'scatter',
+  data:{datasets:[
+    {label:'Dubai',data:[{x:1664,y:20},{x:2804,y:22},{x:2200,y:19},{x:1200,y:18},{x:900,y:15}],backgroundColor:'#0050d8',pointRadius:8},
+    {label:'Abu Dhabi',data:[{x:2200,y:19},{x:2500,y:18},{x:1800,y:17},{x:1500,y:15}],backgroundColor:'#10b981',pointRadius:8},
+    {label:'RAK',data:[{x:2838,y:39},{x:2400,y:20},{x:1160,y:15}],backgroundColor:'#e11d48',pointRadius:8},
+    {label:'Sharjah',data:[{x:850,y:8},{x:700,y:10},{x:600,y:6}],backgroundColor:'#f59e0b',pointRadius:8}
+  ]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'bottom',labels:{color:TC,font:{size:10},padding:10}},
+    tooltip:{callbacks:{label:function(ctx){return ctx.dataset.label+': AED '+ctx.parsed.x+'/sqft · +'+ctx.parsed.y+'% YoY';}}}},
+    scales:{
+      x:{min:400,max:3200,grid:{color:GC},ticks:{color:TC,callback:function(v){return 'AED '+v;}},title:{display:true,text:'Avg Price AED/sqft',color:TC,font:{size:10}}},
+      y:{min:0,max:45,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'%';}},title:{display:true,text:'YoY Price Growth %',color:TC,font:{size:10}}}
+    }}
+});
+
+// ── TRENDS ────────────────────────────────────────────────────────────────────
+new Chart(document.getElementById('c_price_bar'),{type:'bar',
+  data:{labels:['Palm Jumeirah','Abu Dhabi Prime','Downtown Dubai','Dubai avg','Yas Island','Al Reem Island','RAK off-plan avg','Sharjah avg','Ajman avg'],
+    datasets:[{data:[2804,2500,2200,1664,1800,1700,1980,850,450],
+      backgroundColor:['#0050d8','#10b981','#0050d8','#3b82f6','#10b981','#1d9e75','#e11d48','#f59e0b','#7c3aed'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return 'AED '+ctx.parsed.x+'/sqft';}}}},
+    scales:{x:{min:0,max:3200,grid:{color:GC},ticks:{color:TC,callback:function(v){return 'AED '+v;}}},y:{grid:{display:false},ticks:{color:TC,font:{size:9}}}}}
+});
+
+new Chart(document.getElementById('c_appreciation'),{type:'bar',
+  data:{labels:['RAK Villas','RAK Apts','Dubai Villas','Dubai Apts','AbuDhabi Apts','AbuDhabi Villas','Sharjah','Ajman'],
+    datasets:[{data:[15,13.2,21.8,19.8,19,13,8,6],
+      backgroundColor:['#e11d48','#f43f5e','#0050d8','#3b82f6','#10b981','#1d9e75','#f59e0b','#7c3aed'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return '+'+ctx.parsed.x+'% YoY 2025';}}}},
+    scales:{x:{min:0,max:26,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'%';}}},y:{grid:{display:false},ticks:{color:TC,font:{size:9}}}}}
+});
+
+new Chart(document.getElementById('c_yields'),{type:'bar',
+  data:{labels:['Dubai Apts','AbuDhabi Apts','Dubai Villas','AbuDhabi Villas','Ajman','Sharjah','RAK'],
+    datasets:[{data:[7.3,6.78,5.0,4.83,7.5,6.5,3.29],
+      backgroundColor:['#0050d8','#10b981','#3b82f6','#1d9e75','#7c3aed','#f59e0b','#e11d48'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y+'% gross yield';}}}},
+    scales:{y:ya(0,10,'%'),x:XA}}
+});
+
+new Chart(document.getElementById('c_premium'),{type:'bar',
+  data:{labels:['RAK (Sobha)','Sharjah avg','UAE avg','Abu Dhabi','Dubai'],
+    datasets:[
+      {label:'Launch discount vs ready',data:[-40,-20,-20,-15,-15],backgroundColor:'rgba(16,185,129,0.7)',borderRadius:3,borderSkipped:false},
+      {label:'Expected appreciation by completion',data:[50,20,20,20,20],backgroundColor:'rgba(0,80,216,0.7)',borderRadius:3,borderSkipped:false}
+    ]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'bottom',labels:{color:TC,font:{size:9},padding:8}}},
+    scales:{y:{min:-50,max:60,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'%';}}},x:XAS}}
+});
+
+// ── SEP 2025 – MAR 2026 ───────────────────────────────────────────────────────
+new Chart(document.getElementById('c_monthly_dxb'),{type:'bar',
+  data:{labels:['Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26','Mar 26'],
+    datasets:[
+      {label:'Total trans.',data:[20.3,21.0,19.8,19.2,14.5,13.7,17.0],
+       backgroundColor:'rgba(0,80,216,0.2)',borderRadius:3,borderSkipped:false,yAxisID:'y'},
+      {label:'Off-plan est.',data:[15.4,15.7,14.9,14.4,10.2,10.3,13.6],
+       backgroundColor:'#0050d8',borderRadius:3,borderSkipped:false,yAxisID:'y'},
+      {label:'Value AED B',data:[65,58.4,64.2,64.8,null,null,null],
+       type:'line',borderColor:'#10b981',backgroundColor:'transparent',
+       tension:0.3,pointRadius:5,pointBackgroundColor:'#10b981',borderWidth:2,yAxisID:'y2'}
+    ]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false}},
+    scales:{
+      y:{min:0,max:25,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'K';}}},
+      y2:{min:0,max:80,grid:{display:false},ticks:{color:'#10b981',callback:function(v){return 'AED '+v+'B';}},position:'right'},
+      x:XA
+    }}
+});
+
+new Chart(document.getElementById('c_opshare_recent'),{type:'bar',
+  data:{labels:['Q1 2025','Q2 2025','Q3 2025','Q4 2025','Q1 2026','Apr 1–15 2026'],
+    datasets:[{data:[56,63,76,75,70,80],
+      backgroundColor:['rgba(0,80,216,0.3)','rgba(0,80,216,0.45)','#0050d8','rgba(0,80,216,0.85)','rgba(0,80,216,0.7)','rgba(0,80,216,0.9)'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y+'% off-plan share';}}}},
+    scales:{y:ya(40,90,'%'),x:XAS}}
+});
+
+new Chart(document.getElementById('c_ppsf_monthly'),{type:'line',
+  data:{labels:['Sep 25','Oct 25','Nov 25','Dec 25','Jan 26','Feb 26','Mar 26'],
+    datasets:[
+      {label:'Apartments (AED/sqft)',data:[1820,1840,1855,1862,1863,1869,1871],
+       borderColor:'#0050d8',backgroundColor:'rgba(0,80,216,0.06)',fill:true,tension:0.3,pointRadius:4,borderWidth:2},
+      {label:'Villas (AED/sqft)',data:[2295,2320,2340,2331,2345,2362,2376],
+       borderColor:'#10b981',backgroundColor:'transparent',tension:0.3,pointRadius:4,borderWidth:2,borderDash:[4,3]}
+    ]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'bottom',labels:{color:TC,font:{size:9},padding:8}}},
+    scales:{y:{min:1700,max:2500,grid:{color:GC},ticks:{color:TC,callback:function(v){return 'AED '+v;}}},x:XA}}
+});
+
+(function(){
+  var rows=[
+    {p:'Q1 2025',t:'~3,300',op:'~1,000',pct:'~30%',v:'AED 8.9B',g:'+14.4% apt YoY',n:'Limited new launches; H1 dip due to fewer projects'},
+    {p:'Q2 2025',t:'~3,800',op:'~2,000',pct:'~53%',v:'est. AED 12B',g:'+15% apt YoY',n:'Q2 recovery; off-plan ticked up'},
+    {p:'Q3 2025',t:'~5,500',op:'~4,345',pct:'79%',v:'est. AED 22B',g:'+10.5% VPI YoY',n:'Strongest capital growth on record · ValuStrat · Villa +12% YoY'},
+    {p:'Q4 2025',t:'~5,800',op:'~4,640',pct:'~80%',v:'est. AED 25B',g:'+13.1% annual',n:'Record year end · ADREC full-year AED 76B residential'},
+    {p:'Jan 2026',t:'2,600',op:'2,158',pct:'83%',v:'AED 12B',g:'+67% YoY pace',n:'$3.2B single month · 83% off-plan · Benoit Properties / ADREC'}
+  ];
+  document.getElementById('auh_period_body').innerHTML=rows.map(function(r){
+    return '<tr><td style="font-weight:600">'+r.p+'</td><td class="r m">'+r.t+'</td><td class="r m">'+r.op+'</td>'
+      +'<td class="r m" style="color:var(--green)">'+r.pct+'</td><td class="r m">'+r.v+'</td>'
+      +'<td class="r m" style="color:var(--blue)">'+r.g+'</td>'
+      +'<td style="font-size:9px;color:var(--g500)">'+r.n+'</td></tr>';
+  }).join('');
+})();
+
+new Chart(document.getElementById('c_auh_opshare'),{type:'line',
+  data:{labels:['FY 2024','H1 2025','Q3 2025','Q4 2025','Jan 2026'],
+    datasets:[{label:'Abu Dhabi off-plan %',data:[52,30,79,80,83],
+      borderColor:'#10b981',backgroundColor:'rgba(16,185,129,0.08)',fill:true,
+      tension:0.3,pointRadius:6,pointBackgroundColor:'#10b981',borderWidth:2.5}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y+'% off-plan share';}}}},
+    scales:{y:ya(20,95,'%'),x:XA}}
+});
+
+new Chart(document.getElementById('c_rak_period'),{type:'bar',
+  data:{labels:['Ready units (Jan–Sep 2025)','Off-plan units (Jan–Sep 2025)'],
+    datasets:[{data:[0.776,4.1],backgroundColor:['rgba(225,29,72,0.3)','#e11d48'],borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y+'K units';}}}},
+    scales:{y:{min:0,max:5,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'K';}}},x:XA}}
+});
+
+(function(){
+  var rows=[
+    {m:'Sep 2025',e:'Dubai',t:'20,308 transactions',op:'~75%',k:'Highest single month of 2025 · AED 65B',src:'DXB Analytics'},
+    {m:'Sep 2025',e:'Abu Dhabi',t:'~1,800 trans.',op:'79% (Q3)',k:'Q3 strongest capital growth on record · VPI +10.5% YoY',src:'ValuStrat / AGBI'},
+    {m:'Sep 2025',e:'RAK',t:'~400 trans.',op:'84%',k:'4,100+ total Jan–Sep · avg AED 2M off-plan',src:'AGBI / Marjan'},
+    {m:'Sep 2025',e:'Sharjah',t:'~9,000 trans.',op:'~25%',k:'9M total hit 80,320 · AED 44.3B vs AED 28B prior year',src:'SRERD / KT'},
+    {m:'Oct 2025',e:'Dubai',t:'~21K trans. · AED 58.4B',op:'~75%',k:'Q4 2025 opens strong · Oct historically busiest month',src:'DXB Analytics'},
+    {m:'Oct 2025',e:'Sharjah',t:'12,539 trans. · AED 7B',op:'~25%',k:'+54.1% YoY value · 1,307 initial sale contracts',src:'SRERD / Gulf Today'},
+    {m:'Nov 2025',e:'Dubai',t:'~19.8K trans. · AED 64.2B',op:'~75%',k:'Strongest Nov value on record',src:'Roya Int\'l / DLD'},
+    {m:'Dec 2025',e:'Dubai',t:'19,220 trans. · AED 64.8B',op:'>75%',k:'+52% vs Dec 2024 · Q4 total AED 187.5B (+26.9%)',src:'Roya Int\'l / DLD'},
+    {m:'Dec 2025',e:'Abu Dhabi',t:'~1,900 trans.',op:'~80%',k:'Full year 2025: 21,279 trans. (+47.4% YoY) · AED 76B res.',src:'ADREC / Global Prop.'},
+    {m:'Jan 2026',e:'Dubai',t:'~14.5K total DLD',op:'~70%',k:'Q1 quiet season · Jan traditionally lowest · on 200K+ pace',src:'DXB Analytics'},
+    {m:'Jan 2026',e:'Abu Dhabi',t:'2,600 trans. · AED 12B',op:'83%',k:'$3.2B in Jan alone · +67% YoY pace · 56 new projects in 2025',src:'Benoit Prop. / ADREC'},
+    {m:'Feb 2026',e:'Dubai',t:'~13.7K total DLD',op:'~70%',k:'Golden Visa 50% upfront rule scrapped Feb 20 · widened buyers',src:'DXB Analytics'},
+    {m:'Q1 2026',e:'Dubai',t:'45,221 · AED 137.3B',op:'70%',k:'+18.8% YoY value · apt AED 1,871/sqft · villa AED 2,376/sqft',src:'Sherwoods / DLD'},
+    {m:'Mar 2026',e:'Dubai',t:'~17K trans.',op:'>70%',k:'Price −0.3% MoM (healthy consolidation) · value held firm',src:'Sherwoods'},
+    {m:'Apr 1–15 2026',e:'Dubai',t:'Strong 15-day data',op:'>80%',k:'Off-plan dominance deepened · median AED 1,839/sqft apts',src:'Aiqya (DLD data)'}
+  ];
+  var ECOLORS={Dubai:'#0050d8','Abu Dhabi':'#10b981',RAK:'#e11d48',Sharjah:'#f59e0b'};
+  document.getElementById('monthly_log_body').innerHTML=rows.map(function(r){
+    var ec=ECOLORS[r.e]||'#64748b';
+    return '<tr><td style="font-weight:600;white-space:nowrap">'+r.m+'</td>'
+      +'<td><span style="background:'+ec+';color:white;padding:1px 6px;border-radius:3px;font-size:9px;font-weight:600">'+r.e+'</span></td>'
+      +'<td class="r m">'+r.t+'</td>'
+      +'<td class="r m" style="color:var(--green)">'+r.op+'</td>'
+      +'<td style="font-size:10px;color:var(--g700)">'+r.k+'</td>'
+      +'<td style="font-size:9px;color:var(--g300)">'+r.src+'</td></tr>';
+  }).join('');
+})();
+
+new Chart(document.getElementById('c_launches'),{type:'line',
+  data:{labels:['Jan 25','Mar 25','Jun 25','Sep 25','Oct 25','Dec 25','2026 pipeline'],
+    datasets:[{label:'Cumulative units launched (thousands)',
+      data:[15,38,72,110,131.5,150,205],
+      borderColor:'#0050d8',backgroundColor:'rgba(0,80,216,0.08)',fill:true,
+      tension:0.3,pointRadius:5,pointBackgroundColor:'#0050d8',borderWidth:2.5}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return ctx.parsed.y+'K units';}}}}  ,
+    scales:{y:{min:0,max:220,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'K';}}},x:XAS}}
+});
+
+new Chart(document.getElementById('c_q1_2026'),{type:'bar',
+  data:{labels:['Jan 2026','Feb 2026','Mar 2026'],
+    datasets:[
+      {label:'Off-plan',data:[10.2,10.3,13.6],backgroundColor:'#0050d8',borderRadius:3,borderSkipped:false},
+      {label:'Ready',data:[4.3,3.4,3.4],backgroundColor:'rgba(203,213,225,0.7)',borderRadius:3,borderSkipped:false}
+    ]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{position:'bottom',labels:{color:TC,font:{size:9},padding:8}}},
+    scales:{y:{min:0,max:16,grid:{color:GC},ticks:{color:TC,callback:function(v){return v+'K';}}},x:XA}}
+});
+
+new Chart(document.getElementById('c_northern_period'),{type:'bar',
+  data:{labels:['Sharjah apt QoQ','Sharjah apt YoY','RAK apt QoQ','RAK apt YoY','AbuDhabi VPI QoQ','AbuDhabi VPI YoY'],
+    datasets:[{data:[3,12,4,18,4,10.5],
+      backgroundColor:['#f59e0b','#f59e0b','#e11d48','#e11d48','#10b981','#10b981'],
+      borderRadius:4,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:function(ctx){return '+'+ctx.parsed.y+'% growth';}}}},
+    scales:{y:ya(0,22,'%'),x:{grid:{display:false},ticks:{color:TC,font:{size:9},maxRotation:35}}}}
+});
+
+// ── NOTES ─────────────────────────────────────────────────────────────────────
+(function(){
+  var conf=[
+    ['Dubai off-plan Q1 2025 units','29,100 · Cavendish Maxwell / DLD'],
+    ['Dubai off-plan H1 2025 value','AED 77B · Cavendish Maxwell'],
+    ['Dubai total H1 2025 transactions','125,538 · DLD official'],
+    ['Dubai full year 2025 sales','205,100 transactions · AED 540B · DLD'],
+    ['Dubai off-plan share 2025','63% of all 2025 sales · DXB Analytics'],
+    ['Dubai Q3 2025 off-plan','42,000 units · 76% share · Cavendish Maxwell'],
+    ['Dubai Q4 2025 total value','AED 187.5B · Roya Int\'l / DLD'],
+    ['Dubai Dec 2025','19,220 trans. · +52% YoY · DLD'],
+    ['Dubai Q1 2026 value','AED 137.3B · 45,221 trans. · Sherwoods / DLD'],
+    ['Abu Dhabi off-plan units 2025','15,900 · ADREC + Cavendish Maxwell'],
+    ['Abu Dhabi residential value 2025','AED 76B · +67% YoY · ADREC'],
+    ['Abu Dhabi off-plan share 2025','71% full year · 79% Q3 · 83% Jan 2026'],
+    ['Abu Dhabi Jan 2026','2,600 trans. · AED 12B · 83% off-plan · ADREC'],
+    ['Sharjah 9M 2025 value','AED 44.3B · SRERD official'],
+    ['Sharjah 9M 2025 transactions','80,320 · SRERD official'],
+    ['RAK total value 2025','AED 15B · +118% · ValuStrat / Khaleej Times'],
+    ['RAK off-plan freehold share','85% · ValuStrat citing developer data'],
+    ['RAK Jan–Sep 2025 off-plan units','4,100+ at avg AED 2M · AGBI / Marjan']
+  ];
+  document.getElementById('conf_kv').innerHTML=conf.map(function(r){
+    return '<div class="kv"><span class="kk">'+r[0]+'</span><span class="kva" style="font-size:9px">'+r[1]+'</span></div>';
+  }).join('');
+
+  var est=[
+    ['Dubai 12M off-plan units ~140K','Annualised from Q1+H1 DLD data'],
+    ['Sharjah off-plan units ~20K','25–30% of 80,320 transactions'],
+    ['Ajman off-plan units ~4K','Market estimate; no official breakdown'],
+    ['UAQ off-plan units ~1.5K','Sobha pipeline + Property Finder'],
+    ['Fujairah off-plan ~200','Property Finder active listings (2 projects)'],
+    ['Monthly Dubai off-plan est.','63–76% of published total transaction counts'],
+    ['Abu Dhabi Q1–Q2 2025 figures','Extrapolated from H1 ADREC data'],
+    ['Hotspot price/sqft (non-DLD)','RAK/Sharjah from ValuStrat estimates'],
+    ['Cumulative launch curve 2025','Based on Roya Int\'l + DLD milestone reports']
+  ];
+  document.getElementById('est_kv').innerHTML=est.map(function(r){
+    return '<div class="kv"><span class="kk">'+r[0]+'</span><span class="kva" style="font-size:9px;color:var(--amber)">'+r[1]+'</span></div>';
+  }).join('');
+
+  var sources=[
+    ['Dubai','Off-plan Q1 2025 units 29,100','Cavendish Maxwell Dubai Residential Q1 2025','High'],
+    ['Dubai','Total H1 2025 125,538 trans.','DLD via DXB Interact / Driven Properties','High'],
+    ['Dubai','Full year 2025 205K trans. AED 540B','DLD compiled via DXB Analytics / Global Prop. Guide','High'],
+    ['Dubai','Q3 2025 off-plan 42,000 / 76%','Cavendish Maxwell Q3 2025 Residential Report','High'],
+    ['Dubai','Q4 2025 AED 187.5B value','Roya International (DLD-sourced)','High'],
+    ['Dubai','Dec 2025 19,220 trans. +52%','Roya International / DLD official','High'],
+    ['Dubai','Q1 2026 AED 137.3B 45,221 trans.','Sherwoods Property Q1 2026 Report','High'],
+    ['Dubai','Community-level volumes','Emirates NBD Research / CBRE May 2024','Medium'],
+    ['Abu Dhabi','Off-plan units 15,900 FY 2025','ADREC 2025 Annual Report + Cavendish Maxwell','High'],
+    ['Abu Dhabi','Residential value AED 76B','ADREC 2025 official (Zawya / Royallp.com)','High'],
+    ['Abu Dhabi','Jan 2026 AED 12B 83% off-plan','Benoit Properties citing ADREC data','High'],
+    ['Abu Dhabi','Q3 2025 VPI +10.5% 79% off-plan','ValuStrat via AGBI Dec 2025','High'],
+    ['Sharjah','9M 2025 AED 44.3B 80,320 deals','SRERD official (Gulf Today / PRNewswire)','High'],
+    ['Sharjah','Off-plan growth 20–25% 2025','Valorisimo / Savills Middle East Nov 2025','Medium'],
+    ['RAK','AED 15B total 2025 +118%','Khaleej Times citing ValuStrat','High'],
+    ['RAK','3,000+ units 2024 85% off-plan','Khaleej Times citing developer data','High'],
+    ['RAK','Jan–Sep 2025 4,100 off-plan units','AGBI Dec 2025 citing Marjan data','High'],
+    ['RAK','Price +39% since 2023','AGBI / ValuStrat Jan 2026','Medium'],
+    ['Ajman','AED 4.3B Q1 2024 +26.6%','Ajman DED via Bayut UAE April roundup','High'],
+    ['UAQ','Pipeline estimate ~1.5K units','Eplog Offplan / Property Finder','Low'],
+    ['Fujairah','Pipeline estimate ~200 units','Property Finder active listings count','Low']
+  ];
+  document.getElementById('source_tbody').innerHTML=sources.map(function(r){
+    var col=r[3]==='High'?'var(--green)':r[3]==='Medium'?'var(--amber)':'var(--red)';
+    return '<tr><td style="font-weight:600">'+r[0]+'</td><td style="font-size:10px">'+r[1]+'</td>'
+      +'<td style="font-size:9px;color:var(--g500)">'+r[2]+'</td>'
+      +'<td class="r"><span style="background:'+col+';color:white;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:700">'+r[3]+'</span></td></tr>';
+  }).join('');
+})();
+
+// ── HIDDEN PANEL FLASH FIX ────────────────────────────────────────────────────
+(function(){
+  var s=document.createElement('style');
+  s.id='pf';s.textContent='.panel{display:block!important}';
+  document.head.appendChild(s);
+  requestAnimationFrame(function(){
+    requestAnimationFrame(function(){
+      var el=document.getElementById('pf');
+      if(el)el.parentNode.removeChild(el);
+      if(window.Chart&&Chart.instances){
+        Chart.instances.forEach(function(c){try{c.resize();}catch(e){}});
+      }
+    });
+  });
+})();
+</script>
+
+
+</body></html>
